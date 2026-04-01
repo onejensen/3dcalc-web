@@ -268,7 +268,7 @@ nav {
 }
 .btn-store-primary:hover { opacity: 0.85; }
 .btn-store-secondary:hover { background: rgba(255, 255, 255, 0.1); }
-.btn-store-icon { font-size: 20px; line-height: 1; }
+.btn-store-icon { width: 22px; height: 22px; fill: currentColor; flex-shrink: 0; }
 .btn-store-label {
   font-size: 10px;
   color: rgba(255, 255, 255, 0.65);
