@@ -74,10 +74,16 @@ function initFaq() {
       const isOpen = item.classList.contains('open');
 
       // Close all
-      document.querySelectorAll('.faq-item.open').forEach(i => i.classList.remove('open'));
+      document.querySelectorAll('.faq-item.open').forEach(i => {
+        i.classList.remove('open');
+        i.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+      });
 
       // Open clicked (if it was closed)
-      if (!isOpen) item.classList.add('open');
+      if (!isOpen) {
+        item.classList.add('open');
+        question.setAttribute('aria-expanded', 'true');
+      }
     });
   });
 }
@@ -116,9 +122,10 @@ function animateCounter(el) {
   const tick = () => {
     frame++;
     current = Math.min(current + increment, num);
-    el.textContent = Math.floor(current).toLocaleString('es-ES') + suffix;
+    const locale = getLang() === 'es' ? 'es-ES' : 'en-US';
+    el.textContent = Math.floor(current).toLocaleString(locale) + suffix;
     if (frame < steps) requestAnimationFrame(tick);
-    else el.textContent = num.toLocaleString('es-ES') + suffix;
+    else el.textContent = num.toLocaleString(locale) + suffix;
   };
 
   requestAnimationFrame(tick);

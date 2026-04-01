@@ -24,9 +24,10 @@ window.t = {
       pdf:          'Exportar Presupuesto PDF',
     },
     stats: {
-      users:        'Makers activos',
-      platforms:    'iOS · Android · iPadOS',
-      price:        'Pago único, para siempre',
+      users:             'Makers activos',
+      platforms:         'iOS · Android · iPadOS',
+      platforms_label:   'Plataformas',
+      price:             'Pago único, para siempre',
     },
     features: {
       label:        '— Funcionalidades',
@@ -190,9 +191,10 @@ window.t = {
       pdf:          'Export Quote PDF',
     },
     stats: {
-      users:        'Active makers',
-      platforms:    'iOS · Android · iPadOS',
-      price:        'One-time payment, forever',
+      users:             'Active makers',
+      platforms:         'iOS · Android · iPadOS',
+      platforms_label:   'Platforms',
+      price:             'One-time payment, forever',
     },
     features: {
       label:        '— Features',
