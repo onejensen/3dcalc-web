@@ -85,12 +85,11 @@ nav {
   text-decoration: none;
   flex-shrink: 0;
 }
-.logo-diamond {
-  width: 10px;
-  height: 10px;
-  background: var(--accent);
-  border-radius: 2px;
-  transform: rotate(45deg);
+.logo-img {
+  height: 30px;
+  width: auto;
+  border-radius: 7px;
+  display: block;
 }
 .logo-text {
   font-size: 16px;
