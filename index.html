@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3Dcalc+ | Impresión 3D, con números claros</title>
+  <meta name="description" content="Calcula el coste exacto de tus impresiones 3D y genera presupuestos PDF profesionales. Disponible para iOS y Android.">
+  <meta property="og:title" content="3Dcalc+ | Impresión 3D, con números claros">
+  <meta property="og:description" content="La calculadora definitiva para makers y profesionales de la impresión 3D.">
+  <meta property="og:image" content="assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="grid-bg">
+
+  <!-- ═══ HEADER ═══════════════════════════════════════════ -->
+  <header>
+    <nav>
+      <a href="index.html" class="logo">
+        <div class="logo-diamond"></div>
+        <span class="logo-text">3DCALC<span>+</span></span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#features"     data-i18n="nav.features">Características</a></li>
+        <li><a href="#pricing"      data-i18n="nav.pricing">Precios</a></li>
+        <li><a href="#faq"          data-i18n="nav.faq">FAQ</a></li>
+        <li><a href="support.html"  data-i18n="nav.support">Soporte</a></li>
+      </ul>
+
+      <div class="nav-right">
+        <button class="hamburger" aria-label="Menú" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <button class="lang-btn" aria-label="Cambiar idioma">EN</button>
+        <a href="#download" class="btn-nav" data-i18n="nav.download">Descargar</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ═══ HERO ═════════════════════════════════════════════ -->
+    <section class="hero">
+      <div class="hero-glow"></div>
+      <div class="hero-diagonal"></div>
+      <div class="hero-diagonal-inner"></div>
+
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <div class="hero-badge reveal">
+            <span data-i18n="hero.badge">Versión 2.0 disponible</span>
+          </div>
+
+          <h1 class="hero-title reveal delay-1" data-i18n="hero.title">
+            Impresión 3D,<br>con <em>números claros.</em>
+          </h1>
+
+          <p class="hero-subtitle reveal delay-2" data-i18n="hero.subtitle">
+            Calcula el coste real de tus impresiones en segundos. Gestiona materiales, estima el desgaste y genera presupuestos profesionales para tus clientes.
+          </p>
+
+          <div class="hero-actions reveal delay-3">
+            <a href="https://apps.apple.com/es/app/3dcalc/id6752701677"
+               class="btn-store btn-store-primary"
+               target="_blank" rel="noopener">
+              <span class="btn-store-icon"></span>
+              <div>
+                <span class="btn-store-label" data-i18n="hero.available">Disponible en</span>
+                <span class="btn-store-name" data-i18n="hero.appstore">App Store</span>
+              </div>
+            </a>
+
+            <a href="https://play.google.com/store/apps/details?id=com.sozolabs.calc3D"
+               class="btn-store btn-store-secondary"
+               target="_blank" rel="noopener">
+              <span class="btn-store-icon">▶</span>
+              <div>
+                <span class="btn-store-label" data-i18n="hero.available">Disponible en</span>
+                <span class="btn-store-name" data-i18n="hero.googleplay">Google Play</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="hero-proof reveal delay-4">
+            <span class="hero-stars">★★★★★</span>
+            <span data-i18n="hero.proof">Más de 10.000 makers ya la usan</span>
+          </div>
+        </div>
+
+        <!-- Mockup flotante -->
+        <div class="hero-mockup reveal delay-2">
+          <p class="mockup-label" data-i18n="mockup.total">Coste Total</p>
+          <p class="mockup-total">4.52€</p>
+          <div class="mockup-divider"></div>
+          <div class="mockup-row">
+            <span class="mockup-row-label" data-i18n="mockup.filament">Filamento</span>
+            <span class="mockup-row-val">1.20€</span>
+          </div>
+          <div class="mockup-row">
+            <span class="mockup-row-label" data-i18n="mockup.energy">Energía</span>
+            <span class="mockup-row-val">0.12€</span>
+          </div>
+          <div class="mockup-row">
+            <span class="mockup-row-label" data-i18n="mockup.labor">Mano de obra</span>
+            <span class="mockup-row-val">2.40€</span>
+          </div>
+          <a href="#download" class="mockup-pdf-btn" data-i18n="mockup.pdf">Exportar Presupuesto PDF</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ STATS ══════════════════════════════════════════════ -->
+    <section class="stats">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item reveal">
+            <div class="stat-value" data-target="10000" data-suffix="+">10.000+</div>
+            <div class="stat-label" data-i18n="stats.users">Makers activos</div>
+          </div>
+          <div class="stat-item reveal delay-1">
+            <div class="stat-value" data-i18n="stats.platforms">iOS · Android · iPadOS</div>
+            <div class="stat-label">Plataformas</div>
+          </div>
+          <div class="stat-item reveal delay-2">
+            <div class="stat-value">2.99€</div>
+            <div class="stat-label" data-i18n="stats.price">Pago único, para siempre</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ FEATURES ═══════════════════════════════════════════ -->
+    <section id="features" class="features">
+      <div class="container">
+        <p class="section-label reveal" data-i18n="features.label">— Funcionalidades</p>
+        <h2 class="section-title reveal" data-i18n="features.title">Todo lo que necesitas en una sola app</h2>
+        <p class="section-subtitle reveal" data-i18n="features.subtitle">Diseñada para makers, impresores y profesionales del 3D.</p>
+
+        <div class="bento-grid">
+          <div class="bento-item featured reveal">
+            <div class="bento-icon">📊</div>
+            <h3 data-i18n="features.f1_title">Precisión Absoluta</h3>
+            <p data-i18n="features.f1_desc">Calcula filamento monocolor o multicolor, resina, energía eléctrica por región y mano de obra. Sin estimaciones: costes reales.</p>
+          </div>
+
+          <div class="bento-item reveal delay-1">
+            <div class="bento-icon">📄</div>
+            <h3 data-i18n="features.f2_title">Presupuestos PDF</h3>
+            <p data-i18n="features.f2_desc">Genera presupuestos PDF profesionales con tu logo y datos listos para enviar a tus clientes en un solo clic.</p>
+          </div>
+
+          <div class="bento-item reveal delay-2">
+            <div class="bento-icon">☁️</div>
+            <h3 data-i18n="features.f3_title">Sync en la Nube</h3>
+            <p data-i18n="features.f3_desc">Tus impresoras y materiales sincronizados entre iPhone, iPad y Android de forma instantánea.</p>
+          </div>
+
+          <div class="bento-item reveal delay-3">
+            <div class="bento-icon">🌈</div>
+            <h3 data-i18n="features.f4_title">Multicolor AMS/MMU</h3>
+            <p data-i18n="features.f4_desc">Soporte para Bambu Lab AMS y Prusa MMU. Desglose exacto por color y purgado.</p>
+          </div>
+
+          <div class="bento-item reveal delay-4">
+            <div class="bento-icon">🖨️</div>
+            <h3 data-i18n="features.f5_title">Inventario</h3>
+            <p data-i18n="features.f5_desc">Gestiona todas tus impresoras y materiales personalizados en un solo lugar.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ HOW IT WORKS ════════════════════════════════════════ -->
+    <section id="how-it-works" class="how-it-works">
+      <div class="container">
+        <p class="section-label reveal" data-i18n="steps.label">— Así de sencillo</p>
+        <h2 class="section-title reveal" data-i18n="steps.title">¿Cómo funciona?</h2>
+
+        <div class="steps-grid">
+          <div class="step reveal">
+            <div class="step-num">1</div>
+            <h4 data-i18n="steps.s1_title">Configura</h4>
+            <p data-i18n="steps.s1_desc">Añade tu impresora y el precio de tu filamento o resina.</p>
+          </div>
+          <div class="step reveal delay-1">
+            <div class="step-num">2</div>
+            <h4 data-i18n="steps.s2_title">Calcula</h4>
+            <p data-i18n="steps.s2_desc">Introduce el peso y el tiempo de impresión de tu slicer.</p>
+          </div>
+          <div class="step reveal delay-2">
+            <div class="step-num">3</div>
+            <h4 data-i18n="steps.s3_title">Presupuesta</h4>
+            <p data-i18n="steps.s3_desc">Añade tu margen de beneficio y exporta el presupuesto PDF.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ TESTIMONIALS ════════════════════════════════════════ -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <p class="section-label reveal" data-i18n="testimonials.label">— Opiniones reales</p>
+        <h2 class="section-title reveal" data-i18n="testimonials.title">Lo que dicen los makers</h2>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card reveal">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text" data-i18n="testimonials.t1_text">"La mejor app para calcular costes..."</p>
+            <div class="testimonial-author">
+              <img src="https://i.pravatar.cc/100?img=11" alt="Carlos M." class="author-avatar" loading="lazy">
+              <div>
+                <p class="author-name" data-i18n="testimonials.t1_name">Carlos M.</p>
+                <p class="author-role" data-i18n="testimonials.t1_role">Granja de Impresión 3D</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal delay-1">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text" data-i18n="testimonials.t2_text">"La función multicolor es increíble..."</p>
+            <div class="testimonial-author">
+              <img src="https://i.pravatar.cc/100?img=5" alt="Laura G." class="author-avatar" loading="lazy">
+              <div>
+                <p class="author-name" data-i18n="testimonials.t2_name">Laura G.</p>
+                <p class="author-role" data-i18n="testimonials.t2_role">Diseñadora 3D</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal delay-2">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text" data-i18n="testimonials.t3_text">"Sencilla, directa y sin complicaciones..."</p>
+            <div class="testimonial-author">
+              <img src="https://i.pravatar.cc/100?img=8" alt="David R." class="author-avatar" loading="lazy">
+              <div>
+                <p class="author-name" data-i18n="testimonials.t3_name">David R.</p>
+                <p class="author-role" data-i18n="testimonials.t3_role">Maker Hobbyista</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ PRICING ═════════════════════════════════════════════ -->
+    <section id="pricing" class="pricing">
+      <div class="container">
+        <p class="section-label reveal" data-i18n="pricing.label">— Sin sorpresas</p>
+        <h2 class="section-title reveal" data-i18n="pricing.title">Una herramienta profesional,<br>por el precio de un café.</h2>
+
+        <div class="pricing-card reveal">
+          <div class="pricing-badge" data-i18n="pricing.badge">PAGO ÚNICO</div>
+          <div class="pricing-price">
+            <sup data-i18n="pricing.currency">€</sup><span data-i18n="pricing.price">2.99</span>
+          </div>
+          <p class="pricing-desc" data-i18n="pricing.desc">Sin suscripciones. Sin cargos ocultos. Actualizaciones incluidas.</p>
+
+          <ul class="pricing-features">
+            <li><span class="check">✓</span><span data-i18n="pricing.f1">Cálculos ilimitados y múltiples impresoras</span></li>
+            <li><span class="check">✓</span><span data-i18n="pricing.f2">Presupuestos PDF con tu logo exportables</span></li>
+            <li><span class="check">✓</span><span data-i18n="pricing.f3">Soporte multicolor (AMS / MMU)</span></li>
+            <li><span class="check">✓</span><span data-i18n="pricing.f4">Sincronización en la nube entre dispositivos</span></li>
+            <li><span class="check">✓</span><span data-i18n="pricing.f5">Cálculo de energía, resina y costes extra</span></li>
+            <li><span class="check">✓</span><span data-i18n="pricing.f6">Actualizaciones futuras incluidas</span></li>
+          </ul>
+
+          <a href="#download" class="btn-primary" data-i18n="pricing.cta">Descargar ahora</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ DOWNLOAD CTA ═════════════════════════════════════════ -->
+    <section id="download" class="download-cta">
+      <div class="download-cta-glow"></div>
+      <div class="container" style="position:relative;">
+        <h2 class="reveal" data-i18n="download.title">Lleva tu taller al siguiente nivel</h2>
+        <p class="reveal delay-1" data-i18n="download.subtitle">Disponible para todos tus dispositivos. Sincroniza tus datos y nunca pierdas un presupuesto.</p>
+
+        <div class="store-buttons reveal delay-2">
+          <a href="https://apps.apple.com/es/app/3dcalc/id6752701677"
+             class="btn-store btn-store-primary"
+             target="_blank" rel="noopener">
+            <span class="btn-store-icon"></span>
+            <div>
+              <span class="btn-store-label" data-i18n="hero.available">Disponible en</span>
+              <span class="btn-store-name" data-i18n="hero.appstore">App Store</span>
+            </div>
+          </a>
+
+          <a href="https://play.google.com/store/apps/details?id=com.sozolabs.calc3D"
+             class="btn-store btn-store-secondary"
+             target="_blank" rel="noopener">
+            <span class="btn-store-icon">▶</span>
+            <div>
+              <span class="btn-store-label" data-i18n="hero.available">Disponible en</span>
+              <span class="btn-store-name" data-i18n="hero.googleplay">Google Play</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══ FOOTER ═════════════════════════════════════════════ -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">3DCALC<span>+</span></div>
+        <p class="footer-copy" data-i18n="footer.copy">© 2026 Sozolabs</p>
+        <nav class="footer-links">
+          <a href="privacy.html" data-i18n="footer.privacy">Política de Privacidad</a>
+          <a href="terms.html"   data-i18n="footer.terms">Términos de Uso</a>
+          <a href="support.html" data-i18n="footer.support">Soporte</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="translations.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
