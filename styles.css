@@ -665,6 +665,7 @@ footer {
   margin-bottom: 16px;
 }
 .page-content a { color: var(--accent); text-decoration: underline; }
+.page-content .btn-contact { color: #fff; text-decoration: none; }
 .page-content strong { color: var(--text-primary); }
 
 /* FAQ Accordion */
