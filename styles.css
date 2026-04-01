@@ -14,6 +14,7 @@
   --font:          'Inter', sans-serif;
   --radius:        10px;
   --container:     1100px;
+  --bg-header:     rgba(13, 13, 13, 0.92);
 }
 
 /* ============================================
@@ -30,6 +31,12 @@ body {
 }
 img { display: block; max-width: 100%; }
 a { color: inherit; }
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+:focus:not(:focus-visible) { outline: none; }
 
 /* ============================================
    LAYOUT
@@ -51,7 +58,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(13, 13, 13, 0.92);
+  background: var(--bg-header);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border);
@@ -124,7 +131,7 @@ nav {
   font-weight: 700;
   font-family: var(--font);
   cursor: pointer;
-  transition: all 0.2s;
+  transition: background 0.2s, border-color 0.2s;
   letter-spacing: 0.5px;
 }
 .lang-btn:hover {
@@ -146,6 +153,23 @@ nav {
   white-space: nowrap;
 }
 .btn-nav:hover { opacity: 0.85; }
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+}
+.hamburger span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: var(--text-primary);
+  border-radius: 2px;
+  transition: all 0.2s;
+}
 
 /* ============================================
    HERO
@@ -233,7 +257,7 @@ nav {
   padding: 11px 20px;
   border-radius: 10px;
   text-decoration: none;
-  transition: all 0.2s;
+  transition: opacity 0.2s, background 0.2s;
   min-width: 150px;
 }
 .btn-store-primary { background: var(--accent); }
@@ -733,6 +757,22 @@ footer {
 @media (max-width: 768px) {
   nav { padding: 12px 16px; }
   .nav-links { display: none; }
+  .hamburger { display: flex; }
+  nav.nav-open .nav-links {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: rgba(13, 13, 13, 0.98);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    padding: 16px 24px 24px;
+    gap: 16px;
+    z-index: 99;
+  }
   .bento-grid { grid-template-columns: 1fr; }
   .bento-item.featured { grid-column: span 1; }
   .steps-grid { grid-template-columns: 1fr; gap: 28px; }
@@ -751,4 +791,13 @@ footer {
   .hero-actions { flex-direction: column; }
   .btn-store { justify-content: center; }
   .store-buttons { flex-direction: column; align-items: center; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-mockup { animation: none; }
+  .reveal {
+    transition: none;
+    opacity: 1;
+    transform: none;
+  }
 }
