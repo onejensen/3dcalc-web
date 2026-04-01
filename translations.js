@@ -25,7 +25,7 @@ window.t = {
     },
     stats: {
       users:             'Makers activos',
-      platforms:         'iOS · Android · iPadOS',
+      platforms:         'iOS · Android · iPadOS · macOS',
       platforms_label:   'Plataformas',
       price:             'Pago único, para siempre',
     },
@@ -192,7 +192,7 @@ window.t = {
     },
     stats: {
       users:             'Active makers',
-      platforms:         'iOS · Android · iPadOS',
+      platforms:         'iOS · Android · iPadOS · macOS',
       platforms_label:   'Platforms',
       price:             'One-time payment, forever',
     },

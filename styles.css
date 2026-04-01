@@ -292,6 +292,20 @@ nav {
 }
 .hero-stars { color: var(--accent); letter-spacing: 1px; }
 
+/* Logo app en hero */
+.hero-app-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: float 4s ease-in-out infinite;
+}
+.hero-logo-image {
+  width: 160px;
+  height: auto;
+  border-radius: 36px;
+  box-shadow: 0 0 60px rgba(249,115,22,0.25), 0 24px 48px rgba(0,0,0,0.5);
+}
+
 /* Mockup flotante */
 .hero-mockup {
   background: var(--bg-card);
@@ -326,6 +340,19 @@ nav {
   font-weight: 800;
   margin-top: 16px;
   text-decoration: none;
+}
+
+/* Mockup section (standalone, below how-it-works) */
+.mockup-section {
+  padding: 48px 0;
+  display: flex;
+  justify-content: center;
+}
+.mockup-section .hero-mockup {
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+  animation: float 4s ease-in-out infinite;
 }
 
 /* ============================================
@@ -755,7 +782,7 @@ footer {
    ============================================ */
 @media (max-width: 1024px) {
   .hero-inner { grid-template-columns: 1fr; }
-  .hero-mockup { display: none; }
+  .hero-app-logo { display: none; }
   .hero-title { letter-spacing: -1.5px; }
 }
 
@@ -799,7 +826,7 @@ footer {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .hero-mockup { animation: none; }
+  .hero-app-logo, .hero-mockup { animation: none; }
   .reveal {
     transition: none;
     opacity: 1;
