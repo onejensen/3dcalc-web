@@ -21,6 +21,9 @@ window.t = {
       filament:     'Filamento',
       energy:       'Energía',
       labor:        'Mano de obra',
+      resin:        'Resina',
+      purge:        'Purga AMS',
+      margin:       'Margen (30%)',
       pdf:          'Exportar Presupuesto PDF',
     },
     stats: {
@@ -188,6 +191,9 @@ window.t = {
       filament:     'Filament',
       energy:       'Energy',
       labor:        'Labor',
+      resin:        'Resin',
+      purge:        'AMS Purge',
+      margin:       'Margin (30%)',
       pdf:          'Export Quote PDF',
     },
     stats: {

@@ -343,16 +343,25 @@ nav {
 }
 
 /* Mockup section (standalone, below how-it-works) */
-.mockup-section {
-  padding: 48px 0;
+.mockup-section { padding: 48px 0 64px; }
+.mockup-grid {
   display: flex;
+  gap: 20px;
   justify-content: center;
+  flex-wrap: wrap;
 }
-.mockup-section .hero-mockup {
-  max-width: 300px;
-  width: 100%;
-  margin: 0 auto;
-  animation: float 4s ease-in-out infinite;
+.mockup-grid .hero-mockup {
+  flex: 1;
+  min-width: 220px;
+  max-width: 280px;
+}
+.mockup-type {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 10px;
 }
 
 /* ============================================
