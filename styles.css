@@ -530,7 +530,21 @@ nav {
   font-style: italic;
 }
 .testimonial-author { display: flex; align-items: center; gap: 12px; }
-.author-avatar { width: 42px; height: 42px; border-radius: 50%; object-fit: cover; }
+.author-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent-glow);
+  border: 1px solid var(--accent-border);
+  color: var(--accent);
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  flex-shrink: 0;
+}
 .author-name { font-size: 14px; font-weight: 700; }
 .author-role { font-size: 12px; color: var(--text-muted); }
 

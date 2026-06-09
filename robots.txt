@@ -1,6 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /privacy.html
-Disallow: /terms.html
 
 Sitemap: https://www.3dcalc.app/sitemap.xml

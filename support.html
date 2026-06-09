@@ -3,9 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>3Dcalc+ | Soporte y FAQ</title>
+  <script>document.documentElement.lang = localStorage.getItem('lang') || 'es';</script>
+  <title>Soporte y FAQ de la calculadora de impresión 3D | 3Dcalc+</title>
   <meta name="description" content="Centro de soporte de 3Dcalc+. Preguntas frecuentes sobre la calculadora de impresión 3D, presupuestos PDF y sincronización entre dispositivos.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="theme-color" content="#05070f">
   <link rel="canonical" href="https://www.3dcalc.app/support.html">
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://www.3dcalc.app/support.html">
+  <meta property="og:site_name"   content="3Dcalc+">
+  <meta property="og:locale"      content="es_ES">
+  <meta property="og:title"       content="Soporte y FAQ de la calculadora de impresión 3D | 3Dcalc+">
+  <meta property="og:description" content="Preguntas frecuentes sobre cálculo de costes de impresión 3D, resina, multicolor, presupuestos PDF y sincronización.">
+  <meta property="og:image"       content="https://www.3dcalc.app/assets/logo-512.png">
+  <meta property="og:image:width" content="512">
+  <meta property="og:image:height" content="512">
+  <meta property="og:image:type"  content="image/png">
+  <meta property="og:image:alt"   content="Logo de 3Dcalc+">
+  <meta name="twitter:card"        content="summary">
+  <meta name="twitter:title"       content="Soporte y FAQ de la calculadora de impresión 3D | 3Dcalc+">
+  <meta name="twitter:description" content="Preguntas frecuentes sobre costes de impresión 3D, presupuestos PDF y sincronización.">
+  <meta name="twitter:image"       content="https://www.3dcalc.app/assets/logo-512.png">
   <link rel="icon" type="image/png" href="assets/favicon.png">
   <link rel="apple-touch-icon"      href="assets/logo-512.png">
 
@@ -33,7 +51,7 @@
       {
         "@type": "Question",
         "name": "¿Cómo sincronizo mis datos entre dispositivos?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Inicia sesión con la misma cuenta de email en todos tus dispositivos (iPhone, iPad, Android). Tus impresoras, materiales y cálculos se sincronizan automáticamente a través de la nube." }
+        "acceptedAnswer": { "@type": "Answer", "text": "Inicia sesión con la misma cuenta de email en todos tus dispositivos (iPhone, iPad, Mac, Android). Tus impresoras, materiales y cálculos se sincronizan automáticamente a través de la nube." }
       },
       {
         "@type": "Question",
@@ -43,7 +61,7 @@
       {
         "@type": "Question",
         "name": "¿Está disponible para Android?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Sí. 3Dcalc+ está disponible tanto en App Store (iOS/iPadOS) como en Google Play (Android). Los datos se sincronizan entre plataformas si usas la misma cuenta." }
+        "acceptedAnswer": { "@type": "Answer", "text": "Sí. 3Dcalc+ está disponible tanto en App Store (iOS/iPadOS/macOS) como en Google Play (Android). Los datos se sincronizan entre plataformas si usas la misma cuenta." }
       },
       {
         "@type": "Question",
@@ -69,7 +87,7 @@
   <header>
     <nav>
       <a href="index.html" class="logo">
-        <img src="assets/logo-320.png" alt="3Dcalc+" class="logo-img">
+        <img src="assets/logo-320.png" alt="3Dcalc+" class="logo-img" width="320" height="320">
         <span class="logo-text">3DCALC<span>+</span></span>
       </a>
       <ul class="nav-links">
@@ -78,10 +96,10 @@
         <li><a href="support.html"        data-i18n="nav.support">Soporte</a></li>
       </ul>
       <div class="nav-right">
-        <button class="hamburger" aria-label="Menú" aria-expanded="false">
+        <button class="hamburger" aria-label="Menú" data-i18n-aria="nav.menu_aria" aria-expanded="false">
           <span></span><span></span><span></span>
         </button>
-        <button class="lang-btn" aria-label="Cambiar idioma">EN</button>
+        <button class="lang-btn" aria-label="Cambiar idioma" data-i18n-aria="nav.lang_aria">EN</button>
         <a href="index.html#download" class="btn-nav" data-i18n="nav.download">Descargar</a>
       </div>
     </nav>
@@ -112,7 +130,7 @@
                 <span class="faq-icon" aria-hidden="true">+</span>
               </button>
               <div class="faq-answer">
-                <p data-i18n="support.a1"></p>
+                <p data-i18n="support.a1">Sí. 3Dcalc+ soporta tanto impresión FDM (filamento) como SLA/DLP (resina). Puedes guardar botellas de resina con su precio por mililitro y calcular costes con la misma precisión que con filamento.</p>
               </div>
             </div>
 
@@ -122,7 +140,7 @@
                 <span class="faq-icon" aria-hidden="true">+</span>
               </button>
               <div class="faq-answer">
-                <p data-i18n="support.a2"></p>
+                <p data-i18n="support.a2">En la pantalla de cálculo, activa la opción multicolor e introduce los gramos exactos de cada color y el material de purgado. La app soporta Bambu Lab AMS, Prusa MMU y cualquier sistema multifilamento.</p>
               </div>
             </div>
 
@@ -132,7 +150,7 @@
                 <span class="faq-icon" aria-hidden="true">+</span>
               </button>
               <div class="faq-answer">
-                <p data-i18n="support.a3"></p>
+                <p data-i18n="support.a3">Todo: cálculos ilimitados, múltiples impresoras, presupuestos PDF con tu logo, soporte multicolor, sincronización en la nube entre dispositivos y todas las actualizaciones futuras.</p>
               </div>
             </div>
 
@@ -142,7 +160,7 @@
                 <span class="faq-icon" aria-hidden="true">+</span>
               </button>
               <div class="faq-answer">
-                <p data-i18n="support.a4"></p>
+                <p data-i18n="support.a4">Inicia sesión con la misma cuenta de email en todos tus dispositivos (iPhone, iPad, Mac, Android). Tus impresoras, materiales y cálculos se sincronizan automáticamente a través de la nube.</p>
               </div>
             </div>
 
@@ -152,7 +170,7 @@
                 <span class="faq-icon" aria-hidden="true">+</span>
               </button>
               <div class="faq-answer">
-                <p data-i18n="support.a5"></p>
+                <p data-i18n="support.a5">Sí. En los ajustes de tu perfil puedes subir tu logo y añadir tus datos de contacto. Aparecerán automáticamente en todos los presupuestos que generes.</p>
               </div>
             </div>
 
@@ -162,7 +180,7 @@
                 <span class="faq-icon" aria-hidden="true">+</span>
               </button>
               <div class="faq-answer">
-                <p data-i18n="support.a6"></p>
+                <p data-i18n="support.a6">Sí. 3Dcalc+ está disponible tanto en App Store (iOS/iPadOS/macOS) como en Google Play (Android). Los datos se sincronizan entre plataformas si usas la misma cuenta.</p>
               </div>
             </div>
 
@@ -172,7 +190,7 @@
                 <span class="faq-icon" aria-hidden="true">+</span>
               </button>
               <div class="faq-answer">
-                <p data-i18n="support.a7"></p>
+                <p data-i18n="support.a7">Ve a la sección "Materiales" o "Filamentos" dentro de la app, selecciona el material que quieras editar y actualiza el precio. El cambio se aplica a todos los cálculos nuevos.</p>
               </div>
             </div>
 
@@ -182,7 +200,7 @@
                 <span class="faq-icon" aria-hidden="true">+</span>
               </button>
               <div class="faq-answer">
-                <p data-i18n="support.a8"></p>
+                <p data-i18n="support.a8">Puedes escribirnos directamente a info@sozo3d.es. Respondemos en un plazo de 24-48 horas en días laborables.</p>
               </div>
             </div>
 

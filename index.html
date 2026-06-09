@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>document.documentElement.lang = localStorage.getItem('lang') || 'es';</script>
   <title>Calculadora de costes de impresión 3D | 3Dcalc+</title>
   <meta name="description" content="Calcula costes reales de impresión 3D con filamento, resina, energía y mano de obra. Genera presupuestos PDF profesionales en iOS, Android, iPadOS y macOS.">
   <meta name="robots" content="index,follow,max-image-preview:large">
@@ -97,22 +98,21 @@
   <header>
     <nav>
       <a href="index.html" class="logo">
-        <img src="assets/logo-320.png" alt="3Dcalc+" class="logo-img">
+        <img src="assets/logo-320.png" alt="3Dcalc+" class="logo-img" width="320" height="320">
         <span class="logo-text">3DCALC<span>+</span></span>
       </a>
 
       <ul class="nav-links">
         <li><a href="#features"     data-i18n="nav.features">Características</a></li>
         <li><a href="#pricing"      data-i18n="nav.pricing">Precios</a></li>
-        <li><a href="support.html"   data-i18n="nav.faq">FAQ</a></li>
         <li><a href="support.html"  data-i18n="nav.support">Soporte</a></li>
       </ul>
 
       <div class="nav-right">
-        <button class="hamburger" aria-label="Menú" aria-expanded="false">
+        <button class="hamburger" aria-label="Menú" data-i18n-aria="nav.menu_aria" aria-expanded="false">
           <span></span><span></span><span></span>
         </button>
-        <button class="lang-btn" aria-label="Cambiar idioma">EN</button>
+        <button class="lang-btn" aria-label="Cambiar idioma" data-i18n-aria="nav.lang_aria">EN</button>
         <a href="#download" class="btn-nav" data-i18n="nav.download">Descargar</a>
       </div>
     </nav>
@@ -170,7 +170,7 @@
 
         <!-- Logo app en hero -->
         <div class="hero-app-logo reveal delay-2">
-          <img src="assets/logo-320.png" alt="3Dcalc+" class="hero-logo-image">
+          <img src="assets/logo-320.png" alt="3Dcalc+" class="hero-logo-image" width="320" height="320">
         </div>
       </div>
     </section>
@@ -184,7 +184,7 @@
             <div class="stat-label" data-i18n="stats.users">Makers activos</div>
           </div>
           <div class="stat-item reveal delay-1">
-            <div class="stat-value" data-i18n="stats.platforms">iOS · Android · iPadOS</div>
+            <div class="stat-value" data-i18n="stats.platforms">iOS · Android · iPadOS · macOS</div>
             <div class="stat-label" data-i18n="stats.platforms_label">Plataformas</div>
           </div>
           <div class="stat-item reveal delay-2">
@@ -218,7 +218,7 @@
           <div class="bento-item reveal delay-2">
             <div class="bento-icon">☁️</div>
             <h3 data-i18n="features.f3_title">Sync en la Nube</h3>
-            <p data-i18n="features.f3_desc">Tus impresoras y materiales sincronizados entre iPhone, iPad y Android de forma instantánea.</p>
+            <p data-i18n="features.f3_desc">Tus impresoras y materiales sincronizados entre iPhone, iPad, Mac y Android de forma instantánea.</p>
           </div>
 
           <div class="bento-item reveal delay-3">
@@ -371,7 +371,7 @@
             <div class="testimonial-stars">★★★★★</div>
             <p class="testimonial-text" data-i18n="testimonials.t1_text">"La mejor app para calcular costes..."</p>
             <div class="testimonial-author">
-              <img src="https://i.pravatar.cc/100?img=11" alt="Carlos M." class="author-avatar" loading="lazy">
+              <div class="author-avatar" aria-hidden="true">CM</div>
               <div>
                 <p class="author-name" data-i18n="testimonials.t1_name">Carlos M.</p>
                 <p class="author-role" data-i18n="testimonials.t1_role">Granja de Impresión 3D</p>
@@ -383,7 +383,7 @@
             <div class="testimonial-stars">★★★★★</div>
             <p class="testimonial-text" data-i18n="testimonials.t2_text">"La función multicolor es increíble..."</p>
             <div class="testimonial-author">
-              <img src="https://i.pravatar.cc/100?img=5" alt="Laura G." class="author-avatar" loading="lazy">
+              <div class="author-avatar" aria-hidden="true">LG</div>
               <div>
                 <p class="author-name" data-i18n="testimonials.t2_name">Laura G.</p>
                 <p class="author-role" data-i18n="testimonials.t2_role">Diseñadora 3D</p>
@@ -395,7 +395,7 @@
             <div class="testimonial-stars">★★★★★</div>
             <p class="testimonial-text" data-i18n="testimonials.t3_text">"Sencilla, directa y sin complicaciones..."</p>
             <div class="testimonial-author">
-              <img src="https://i.pravatar.cc/100?img=8" alt="David R." class="author-avatar" loading="lazy">
+              <div class="author-avatar" aria-hidden="true">DR</div>
               <div>
                 <p class="author-name" data-i18n="testimonials.t3_name">David R.</p>
                 <p class="author-role" data-i18n="testimonials.t3_role">Maker Hobbyista</p>

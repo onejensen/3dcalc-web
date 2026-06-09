@@ -25,12 +25,29 @@ function applyTranslations(lang) {
     }
   });
 
+  // Localized aria-labels
+  document.querySelectorAll('[data-i18n-aria]').forEach(el => {
+    const key = el.getAttribute('data-i18n-aria');
+    const value = key.split('.').reduce((obj, k) => obj?.[k], t);
+    if (value !== undefined) el.setAttribute('aria-label', value);
+  });
+
   // Update lang button label
   const btn = document.querySelector('.lang-btn');
   if (btn) btn.textContent = lang === 'es' ? 'EN' : 'ES';
 
   // Update <html lang> attribute
   document.documentElement.lang = lang;
+
+  // Re-format counters already animated (3.000+ vs 3,000+)
+  const locale = lang === 'es' ? 'es-ES' : 'en-US';
+  document.querySelectorAll('[data-target]').forEach(el => {
+    if (!el.dataset.counted) return;
+    const num = parseInt(el.getAttribute('data-target'), 10);
+    if (!isNaN(num)) {
+      el.textContent = num.toLocaleString(locale) + (el.getAttribute('data-suffix') || '');
+    }
+  });
 }
 
 function setLang(lang) {
@@ -124,8 +141,12 @@ function animateCounter(el) {
     current = Math.min(current + increment, num);
     const locale = getLang() === 'es' ? 'es-ES' : 'en-US';
     el.textContent = Math.floor(current).toLocaleString(locale) + suffix;
-    if (frame < steps) requestAnimationFrame(tick);
-    else el.textContent = num.toLocaleString(locale) + suffix;
+    if (frame < steps) {
+      requestAnimationFrame(tick);
+    } else {
+      el.textContent = num.toLocaleString(locale) + suffix;
+      el.dataset.counted = '1';
+    }
   };
 
   requestAnimationFrame(tick);
