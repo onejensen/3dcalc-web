@@ -877,3 +877,25 @@ footer {
     transform: none;
   }
 }
+
+/* "Usar online" — enlace a la web app (/app) */
+.hero-web { margin-top: 16px; }
+.btn-web {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 14px 24px;
+  border-radius: 14px;
+  background: var(--accent);
+  color: #15110b;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1;
+  text-decoration: none;
+  border: 1px solid var(--accent);
+  transition: filter 0.15s ease, transform 0.05s ease, box-shadow 0.15s ease;
+  box-shadow: 0 6px 20px var(--accent-glow);
+}
+.btn-web:hover { filter: brightness(1.07); box-shadow: 0 10px 28px var(--accent-glow); }
+.btn-web:active { transform: translateY(1px); }
+.btn-web svg { flex: none; }

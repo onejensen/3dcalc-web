@@ -15,6 +15,7 @@ window.t = {
       appstore:     'App Store',
       googleplay:   'Google Play',
       available:    'Disponible en',
+      webapp:       'Usar online →',
       proof:        'Más de 3.000 makers ya la usan',
     },
     mockup: {
@@ -191,6 +192,7 @@ window.t = {
       appstore:     'App Store',
       googleplay:   'Google Play',
       available:    'Available on',
+      webapp:       'Use online →',
       proof:        'Trusted by over 3,000 makers',
     },
     mockup: {
