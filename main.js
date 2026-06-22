@@ -5,8 +5,29 @@
 
 // ── LANG SWITCHER ─────────────────────────────────────────────
 
+// The 12 supported languages (parity with the apps), native names + number locale.
+const LANGUAGES = [
+  { code: 'es', name: 'Español',    locale: 'es-ES' },
+  { code: 'en', name: 'English',    locale: 'en-US' },
+  { code: 'ca', name: 'Català',     locale: 'ca-ES' },
+  { code: 'fr', name: 'Français',   locale: 'fr-FR' },
+  { code: 'de', name: 'Deutsch',    locale: 'de-DE' },
+  { code: 'it', name: 'Italiano',   locale: 'it-IT' },
+  { code: 'pt', name: 'Português',  locale: 'pt-PT' },
+  { code: 'nl', name: 'Nederlands', locale: 'nl-NL' },
+  { code: 'pl', name: 'Polski',     locale: 'pl-PL' },
+  { code: 'cs', name: 'Čeština',    locale: 'cs-CZ' },
+  { code: 'fi', name: 'Suomi',      locale: 'fi-FI' },
+  { code: 'ru', name: 'Русский',    locale: 'ru-RU' },
+];
+
+function localeFor(lang) {
+  return (LANGUAGES.find(l => l.code === lang) || LANGUAGES[0]).locale;
+}
+
 function getLang() {
-  return localStorage.getItem('lang') || 'es';
+  const saved = localStorage.getItem('lang');
+  return LANGUAGES.some(l => l.code === saved) ? saved : 'es';
 }
 
 function applyTranslations(lang) {
@@ -32,15 +53,15 @@ function applyTranslations(lang) {
     if (value !== undefined) el.setAttribute('aria-label', value);
   });
 
-  // Update lang button label
-  const btn = document.querySelector('.lang-btn');
-  if (btn) btn.textContent = lang === 'es' ? 'EN' : 'ES';
+  // Reflect the active language in the dropdown
+  const sel = document.querySelector('.lang-select');
+  if (sel) sel.value = lang;
 
   // Update <html lang> attribute
   document.documentElement.lang = lang;
 
   // Re-format counters already animated (3.000+ vs 3,000+)
-  const locale = lang === 'es' ? 'es-ES' : 'en-US';
+  const locale = localeFor(lang);
   document.querySelectorAll('[data-target]').forEach(el => {
     if (!el.dataset.counted) return;
     const num = parseInt(el.getAttribute('data-target'), 10);
@@ -55,8 +76,15 @@ function setLang(lang) {
   applyTranslations(lang);
 }
 
-function toggleLang() {
-  setLang(getLang() === 'es' ? 'en' : 'es');
+/** Fill the language dropdown with the 12 options. */
+function initLangSelect() {
+  const sel = document.querySelector('.lang-select');
+  if (!sel) return;
+  sel.innerHTML = LANGUAGES
+    .map(l => `<option value="${l.code}">${l.name}</option>`)
+    .join('');
+  sel.value = getLang();
+  sel.addEventListener('change', () => setLang(sel.value));
 }
 
 // ── MOBILE NAV ────────────────────────────────────────────────
@@ -139,7 +167,7 @@ function animateCounter(el) {
   const tick = () => {
     frame++;
     current = Math.min(current + increment, num);
-    const locale = getLang() === 'es' ? 'es-ES' : 'en-US';
+    const locale = localeFor(getLang());
     el.textContent = Math.floor(current).toLocaleString(locale) + suffix;
     if (frame < steps) {
       requestAnimationFrame(tick);
@@ -168,12 +196,9 @@ function initStats() {
 // ── INIT ──────────────────────────────────────────────────────
 
 document.addEventListener('DOMContentLoaded', () => {
-  // Apply saved/default language
+  // Build the language dropdown, then apply saved/default language
+  initLangSelect();
   applyTranslations(getLang());
-
-  // Wire lang toggle button
-  document.querySelector('.lang-btn')
-    ?.addEventListener('click', toggleLang);
 
   initMobileNav();
   initFaq();

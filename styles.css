@@ -120,7 +120,7 @@ nav {
   gap: 10px;
   flex-shrink: 0;
 }
-.lang-btn {
+.lang-btn, .lang-select {
   background: rgba(255, 255, 255, 0.06);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 20px;
@@ -133,6 +133,17 @@ nav {
   transition: background 0.2s, border-color 0.2s;
   letter-spacing: 0.5px;
 }
+.lang-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding-right: 26px;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath fill='%23f97316' d='M0 0l5 6 5-6z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+.lang-select option { background: #0d0d0d; color: #fff; }
+.lang-select:hover { border-color: var(--accent-border); }
 .lang-btn:hover {
   background: var(--accent-glow);
   border-color: var(--accent-border);
