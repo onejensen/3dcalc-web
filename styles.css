@@ -568,14 +568,16 @@ nav {
    ============================================ */
 .pricing { padding: 80px 0 48px; }
 .pricing-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 420px));
+  display: flex;
+  flex-wrap: wrap;
   gap: 24px;
   justify-content: center;
   align-items: stretch;
   margin-top: 40px;
 }
 .pricing-card {
+  flex: 1 1 360px;
+  max-width: 420px;
   display: flex;
   flex-direction: column;
   background: var(--accent-glow);
@@ -911,7 +913,6 @@ footer {
   .stat-item:last-child { border-bottom: none; }
   .footer-inner { flex-direction: column; text-align: center; }
   .footer-links { flex-wrap: wrap; justify-content: center; }
-  .pricing-grid { grid-template-columns: minmax(0, 460px); }
   .pricing-card { padding: 32px 24px; }
 }
 
