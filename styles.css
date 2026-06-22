@@ -152,6 +152,21 @@ nav {
   white-space: nowrap;
 }
 .btn-nav:hover { opacity: 0.85; }
+.btn-nav-outline {
+  background: transparent;
+  color: var(--accent);
+  border: 1.5px solid var(--accent-border);
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 13px;
+  font-weight: 800;
+  font-family: var(--font);
+  cursor: pointer;
+  text-decoration: none;
+  transition: border-color 0.2s, background 0.2s;
+  white-space: nowrap;
+}
+.btn-nav-outline:hover { border-color: var(--accent); background: var(--accent-glow); }
 .hamburger {
   display: none;
   flex-direction: column;
@@ -552,15 +567,52 @@ nav {
    PRICING
    ============================================ */
 .pricing { padding: 80px 0 48px; }
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 420px));
+  gap: 24px;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 40px;
+}
 .pricing-card {
-  max-width: 460px;
-  margin: 40px auto 0;
+  display: flex;
+  flex-direction: column;
   background: var(--accent-glow);
   border: 1px solid var(--accent-border);
   border-radius: 16px;
-  padding: 44px 40px;
+  padding: 40px 36px;
   text-align: center;
 }
+.pricing-plan {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 18px;
+}
+.pricing-plan-name {
+  font-weight: 800;
+  font-size: 18px;
+  color: var(--text, #fff);
+}
+.pricing-plan-sub {
+  font-size: 13px;
+  color: var(--muted, #9a9a9a);
+}
+.pricing-card .btn-primary { margin-top: auto; }
+.pricing-mobile-note {
+  max-width: 760px;
+  margin: 24px auto 0;
+  padding: 16px 22px;
+  background: var(--accent-glow);
+  border: 1px dashed var(--accent-border);
+  border-radius: 12px;
+  text-align: center;
+  font-size: 14.5px;
+  line-height: 1.55;
+  color: var(--muted, #b8b8b8);
+}
+.pricing-mobile-note strong { color: var(--accent); font-weight: 800; }
 .pricing-badge {
   display: inline-block;
   background: var(--accent);
@@ -859,7 +911,13 @@ footer {
   .stat-item:last-child { border-bottom: none; }
   .footer-inner { flex-direction: column; text-align: center; }
   .footer-links { flex-wrap: wrap; justify-content: center; }
+  .pricing-grid { grid-template-columns: minmax(0, 460px); }
   .pricing-card { padding: 32px 24px; }
+}
+
+@media (max-width: 600px) {
+  /* Avoid crowding the top bar on phones; "Usar online" still shows in the hero. */
+  .btn-nav-outline { display: none; }
 }
 
 @media (max-width: 480px) {

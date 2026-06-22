@@ -113,6 +113,7 @@
           <span></span><span></span><span></span>
         </button>
         <button class="lang-btn" aria-label="Cambiar idioma" data-i18n-aria="nav.lang_aria">EN</button>
+        <a href="/app/" class="btn-nav-outline" data-i18n="hero.webapp">Usar online →</a>
         <a href="#download" class="btn-nav" data-i18n="nav.download">Descargar</a>
       </div>
     </nav>
@@ -419,24 +420,55 @@
         <p class="section-label reveal" data-i18n="pricing.label">— Sin sorpresas</p>
         <h2 class="section-title reveal" data-i18n="pricing.title">Una herramienta profesional,<br>por el precio de un café.</h2>
 
-        <div class="pricing-card reveal">
-          <div class="pricing-badge" data-i18n="pricing.badge">PAGO ÚNICO</div>
-          <div class="pricing-price">
-            <sup data-i18n="pricing.currency">€</sup><span data-i18n="pricing.price">4.99</span>
+        <div class="pricing-grid">
+          <div class="pricing-card reveal">
+            <div class="pricing-plan">
+              <span class="pricing-plan-name" data-i18n="pricing.planApp">App móvil</span>
+              <span class="pricing-plan-sub" data-i18n="pricing.planAppSub">iOS y Android</span>
+            </div>
+            <div class="pricing-badge" data-i18n="pricing.badge">PAGO ÚNICO</div>
+            <div class="pricing-price">
+              <sup data-i18n="pricing.currency">€</sup><span data-i18n="pricing.price">4.99</span>
+            </div>
+            <p class="pricing-desc" data-i18n="pricing.desc">Sin suscripciones. Sin cargos ocultos. Actualizaciones incluidas.</p>
+
+            <ul class="pricing-features">
+              <li><span class="check">✓</span><span data-i18n="pricing.f1">Cálculos ilimitados y múltiples impresoras</span></li>
+              <li><span class="check">✓</span><span data-i18n="pricing.f2">Presupuestos PDF con tu logo exportables</span></li>
+              <li><span class="check">✓</span><span data-i18n="pricing.f3">Soporte multicolor (AMS / MMU)</span></li>
+              <li><span class="check">✓</span><span data-i18n="pricing.f4">Sincronización en la nube entre dispositivos</span></li>
+              <li><span class="check">✓</span><span data-i18n="pricing.f5">Cálculo de energía, resina y costes extra</span></li>
+              <li><span class="check">✓</span><span data-i18n="pricing.f6">Actualizaciones futuras incluidas</span></li>
+            </ul>
+
+            <a href="#download" class="btn-primary" data-i18n="pricing.cta">Descargar ahora</a>
           </div>
-          <p class="pricing-desc" data-i18n="pricing.desc">Sin suscripciones. Sin cargos ocultos. Actualizaciones incluidas.</p>
 
-          <ul class="pricing-features">
-            <li><span class="check">✓</span><span data-i18n="pricing.f1">Cálculos ilimitados y múltiples impresoras</span></li>
-            <li><span class="check">✓</span><span data-i18n="pricing.f2">Presupuestos PDF con tu logo exportables</span></li>
-            <li><span class="check">✓</span><span data-i18n="pricing.f3">Soporte multicolor (AMS / MMU)</span></li>
-            <li><span class="check">✓</span><span data-i18n="pricing.f4">Sincronización en la nube entre dispositivos</span></li>
-            <li><span class="check">✓</span><span data-i18n="pricing.f5">Cálculo de energía, resina y costes extra</span></li>
-            <li><span class="check">✓</span><span data-i18n="pricing.f6">Actualizaciones futuras incluidas</span></li>
-          </ul>
+          <div class="pricing-card reveal">
+            <div class="pricing-plan">
+              <span class="pricing-plan-name" data-i18n="pricing.planWeb">Versión web</span>
+              <span class="pricing-plan-sub" data-i18n="pricing.planWebSub">Desde el navegador, sin instalar</span>
+            </div>
+            <div class="pricing-badge" data-i18n="pricing.badge">PAGO ÚNICO</div>
+            <div class="pricing-price">
+              <sup data-i18n="pricing.currency">€</sup><span data-i18n="pricing.priceWeb">2.99</span>
+            </div>
+            <p class="pricing-desc" data-i18n="pricing.desc">Sin suscripciones. Sin cargos ocultos. Actualizaciones incluidas.</p>
 
-          <a href="#download" class="btn-primary" data-i18n="pricing.cta">Descargar ahora</a>
+            <ul class="pricing-features">
+              <li><span class="check">✓</span><span data-i18n="pricing.f1">Cálculos ilimitados y múltiples impresoras</span></li>
+              <li><span class="check">✓</span><span data-i18n="pricing.f2">Presupuestos PDF con tu logo exportables</span></li>
+              <li><span class="check">✓</span><span data-i18n="pricing.f3">Soporte multicolor (AMS / MMU)</span></li>
+              <li><span class="check">✓</span><span data-i18n="pricing.f4">Sincronización en la nube entre dispositivos</span></li>
+              <li><span class="check">✓</span><span data-i18n="pricing.f5">Cálculo de energía, resina y costes extra</span></li>
+              <li><span class="check">✓</span><span data-i18n="pricing.f6">Actualizaciones futuras incluidas</span></li>
+            </ul>
+
+            <a href="/app/" class="btn-primary" data-i18n="pricing.ctaWeb">Usar online →</a>
+          </div>
         </div>
+
+        <p class="pricing-mobile-note reveal" data-i18n="pricing.mobileNote">¿Ya tienes la app móvil? Úsala también en la web <strong>sin pagar de nuevo</strong>: en la app, ve a Ajustes → «Activar versión web».</p>
       </div>
     </section>
 
