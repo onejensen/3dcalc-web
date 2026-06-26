@@ -651,6 +651,12 @@ nav {
   letter-spacing: 0;
   font-weight: 700;
 }
+.pricing-price-alt {
+  margin: -2px 0 12px;
+  font-size: 15px;
+  color: var(--text-secondary);
+}
+.pricing-price-alt strong { color: var(--text); font-weight: 800; }
 .pricing-desc {
   color: var(--text-secondary);
   font-size: 15px;

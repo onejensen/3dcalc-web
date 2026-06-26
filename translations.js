@@ -94,10 +94,12 @@ window.t = {
       "planApp": "App móvil",
       "planAppSub": "iOS y Android",
       "planWeb": "Versión web",
-      "planWebSub": "Desde el navegador, sin instalar",
-      "priceWeb": "2.99",
+      "planWebSub": "Pago único o suscripción anual",
+      "priceWeb": "29.99",
       "ctaWeb": "Usar online →",
-      "mobileNote": "¿Ya tienes la app móvil? Úsala también en la web <strong>sin pagar de nuevo</strong>: en la app, ve a Ajustes → «Activar versión web»."
+      "mobileNote": "¿Ya tienes la app móvil? Tienes un <strong>precio especial</strong> en la web (19,99 € o 6,99 €/año): actívalo desde la app en Ajustes → «Activar versión web».",
+      "perYear": "/año",
+      "priceWebOr": "o"
     },
     "download": {
       "title": "Lleva tu taller al siguiente nivel",
@@ -277,10 +279,12 @@ window.t = {
       "planApp": "Mobile app",
       "planAppSub": "iOS & Android",
       "planWeb": "Web version",
-      "planWebSub": "From your browser, no install",
-      "priceWeb": "2.99",
+      "planWebSub": "One-time or annual subscription",
+      "priceWeb": "29.99",
       "ctaWeb": "Use online →",
-      "mobileNote": "Already have the mobile app? Use it on the web too <strong>at no extra cost</strong>: in the app, go to Settings → \"Activate web version\"."
+      "mobileNote": "Already have the mobile app? You get a <strong>special price</strong> on the web (€19.99 or €6.99/yr): activate it in the app under Settings → \"Activate web version\".",
+      "perYear": "/year",
+      "priceWebOr": "or"
     },
     "download": {
       "title": "Take your workshop to the next level",
@@ -460,10 +464,12 @@ window.t = {
       "planApp": "App mobile",
       "planAppSub": "iOS et Android",
       "planWeb": "Version web",
-      "planWebSub": "Depuis le navigateur, sans installation",
-      "priceWeb": "2.99",
+      "planWebSub": "Paiement unique ou abonnement annuel",
+      "priceWeb": "29.99",
       "ctaWeb": "Utiliser en ligne →",
-      "mobileNote": "Vous avez déjà l'app mobile ? Utilisez-la aussi sur le web <strong>sans payer à nouveau</strong> : dans l'app, allez dans Réglages → « Activer la version web »."
+      "mobileNote": "Vous avez déjà l'app mobile ? Vous bénéficiez d'un <strong>tarif spécial</strong> sur le web (19,99 € ou 6,99 €/an) : activez-le dans l'app sous Réglages → « Activer la version web ».",
+      "perYear": "/an",
+      "priceWebOr": "ou"
     },
     "download": {
       "title": "Faites passer votre atelier au niveau supérieur",
@@ -643,10 +649,12 @@ window.t = {
       "planApp": "Mobile App",
       "planAppSub": "iOS und Android",
       "planWeb": "Web-Version",
-      "planWebSub": "Direkt im Browser, ohne Installation",
-      "priceWeb": "2.99",
+      "planWebSub": "Einmalzahlung oder Jahres-Abo",
+      "priceWeb": "29.99",
       "ctaWeb": "Online nutzen →",
-      "mobileNote": "Du hast schon die mobile App? Nutze sie auch im Web <strong>ohne erneut zu zahlen</strong>: Gehe in der App zu Einstellungen → «Web-Version aktivieren»."
+      "mobileNote": "Hast du schon die Mobile-App? Du erhältst einen <strong>Sonderpreis</strong> im Web (19,99 € oder 6,99 €/Jahr): aktiviere ihn in der App unter Einstellungen → „Web-Version aktivieren\".",
+      "perYear": "/Jahr",
+      "priceWebOr": "oder"
     },
     "download": {
       "title": "Bring deine Werkstatt auf das nächste Level",
@@ -826,10 +834,12 @@ window.t = {
       "planApp": "App mobile",
       "planAppSub": "iOS e Android",
       "planWeb": "Versione web",
-      "planWebSub": "Dal browser, senza installare",
-      "priceWeb": "2.99",
+      "planWebSub": "Pagamento unico o abbonamento annuale",
+      "priceWeb": "29.99",
       "ctaWeb": "Usa online →",
-      "mobileNote": "Hai già l'app mobile? Usala anche sul web <strong>senza pagare di nuovo</strong>: nell'app, vai su Impostazioni → «Attiva versione web»."
+      "mobileNote": "Hai già l'app mobile? Hai un <strong>prezzo speciale</strong> sul web (19,99 € o 6,99 €/anno): attivalo dall'app in Impostazioni → «Attiva versione web».",
+      "perYear": "/anno",
+      "priceWebOr": "o"
     },
     "download": {
       "title": "Porta il tuo laboratorio al livello successivo",
@@ -1009,10 +1019,12 @@ window.t = {
       "planApp": "App móvel",
       "planAppSub": "iOS e Android",
       "planWeb": "Versão web",
-      "planWebSub": "A partir do navegador, sem instalar",
-      "priceWeb": "2.99",
+      "planWebSub": "Pagamento único ou subscrição anual",
+      "priceWeb": "29.99",
       "ctaWeb": "Usar online →",
-      "mobileNote": "Já tens a app móvel? Usa-a também na web <strong>sem pagar de novo</strong>: na app, vai a Definições → «Ativar versão web»."
+      "mobileNote": "Já tens a app móvel? Tens um <strong>preço especial</strong> na web (19,99 € ou 6,99 €/ano): ativa-o na app em Definições → «Ativar versão web».",
+      "perYear": "/ano",
+      "priceWebOr": "ou"
     },
     "download": {
       "title": "Leva a tua oficina ao próximo nível",
@@ -1192,10 +1204,12 @@ window.t = {
       "planApp": "App mòbil",
       "planAppSub": "iOS i Android",
       "planWeb": "Versió web",
-      "planWebSub": "Des del navegador, sense instal·lar",
-      "priceWeb": "2.99",
+      "planWebSub": "Pagament únic o subscripció anual",
+      "priceWeb": "29.99",
       "ctaWeb": "Usar en línia →",
-      "mobileNote": "Ja tens l'app mòbil? Fes-la servir també a la web <strong>sense pagar de nou</strong>: a l'app, ves a Configuració → «Activar versió web»."
+      "mobileNote": "Ja tens l'app mòbil? Tens un <strong>preu especial</strong> al web (19,99 € o 6,99 €/any): activa'l des de l'app a Configuració → «Activar versió web».",
+      "perYear": "/any",
+      "priceWebOr": "o"
     },
     "download": {
       "title": "Porta el teu taller al següent nivell",
@@ -1375,10 +1389,12 @@ window.t = {
       "planApp": "Мобильное приложение",
       "planAppSub": "iOS и Android",
       "planWeb": "Веб-версия",
-      "planWebSub": "Из браузера, без установки",
-      "priceWeb": "2.99",
+      "planWebSub": "Разовый платёж или годовая подписка",
+      "priceWeb": "29.99",
       "ctaWeb": "Открыть онлайн →",
-      "mobileNote": "Уже есть мобильное приложение? Используйте его и в вебе <strong>без повторной оплаты</strong>: в приложении откройте Настройки → «Активировать веб-версию»."
+      "mobileNote": "Уже есть мобильное приложение? Вам доступна <strong>специальная цена</strong> в вебе (19,99 € или 6,99 €/год): активируйте её в приложении в Настройках → «Активировать веб-версию».",
+      "perYear": "/год",
+      "priceWebOr": "или"
     },
     "download": {
       "title": "Выведите свою мастерскую на новый уровень",
@@ -1558,10 +1574,12 @@ window.t = {
       "planApp": "Mobiilisovellus",
       "planAppSub": "iOS ja Android",
       "planWeb": "Verkkoversio",
-      "planWebSub": "Selaimesta, ilman asennusta",
-      "priceWeb": "2.99",
+      "planWebSub": "Kertamaksu tai vuositilaus",
+      "priceWeb": "29.99",
       "ctaWeb": "Käytä verkossa →",
-      "mobileNote": "Onko sinulla jo mobiilisovellus? Käytä sitä myös verkossa <strong>maksamatta uudelleen</strong>: avaa sovelluksessa Asetukset → »Aktivoi verkkoversio»."
+      "mobileNote": "Onko sinulla jo mobiilisovellus? Saat <strong>erikoishinnan</strong> verkossa (19,99 € tai 6,99 €/vuosi): aktivoi se sovelluksessa kohdassa Asetukset → \"Aktivoi verkkoversio\".",
+      "perYear": "/vuosi",
+      "priceWebOr": "tai"
     },
     "download": {
       "title": "Vie työpajasi seuraavalle tasolle",
@@ -1741,10 +1759,12 @@ window.t = {
       "planApp": "Mobilní aplikace",
       "planAppSub": "iOS a Android",
       "planWeb": "Webová verze",
-      "planWebSub": "Z prohlížeče, bez instalace",
-      "priceWeb": "2.99",
+      "planWebSub": "Jednorázově nebo roční předplatné",
+      "priceWeb": "29.99",
       "ctaWeb": "Použít online →",
-      "mobileNote": "Už máte mobilní aplikaci? Používejte ji i na webu <strong>bez nutnosti platit znovu</strong>: v aplikaci přejděte do Nastavení → «Aktivovat webovou verzi»."
+      "mobileNote": "Už máš mobilní aplikaci? Máš <strong>speciální cenu</strong> na webu (19,99 € nebo 6,99 €/rok): aktivuj ji v aplikaci v Nastavení → „Aktivovat webovou verzi\".",
+      "perYear": "/rok",
+      "priceWebOr": "nebo"
     },
     "download": {
       "title": "Posuňte svou dílnu na vyšší úroveň",
@@ -1924,10 +1944,12 @@ window.t = {
       "planApp": "Mobiele app",
       "planAppSub": "iOS en Android",
       "planWeb": "Webversie",
-      "planWebSub": "Vanuit de browser, zonder installeren",
-      "priceWeb": "2.99",
+      "planWebSub": "Eenmalig of jaarabonnement",
+      "priceWeb": "29.99",
       "ctaWeb": "Online gebruiken →",
-      "mobileNote": "Heb je de mobiele app al? Gebruik hem ook op het web <strong>zonder opnieuw te betalen</strong>: ga in de app naar Instellingen → «Webversie activeren»."
+      "mobileNote": "Heb je de mobiele app al? Je krijgt een <strong>speciale prijs</strong> op het web (€19,99 of €6,99/jaar): activeer het in de app onder Instellingen → \"Webversie activeren\".",
+      "perYear": "/jaar",
+      "priceWebOr": "of"
     },
     "download": {
       "title": "Til je werkplaats naar een hoger niveau",
@@ -2107,10 +2129,12 @@ window.t = {
       "planApp": "Aplikacja mobilna",
       "planAppSub": "iOS i Android",
       "planWeb": "Wersja webowa",
-      "planWebSub": "Z poziomu przeglądarki, bez instalacji",
-      "priceWeb": "2.99",
+      "planWebSub": "Jednorazowo lub subskrypcja roczna",
+      "priceWeb": "29.99",
       "ctaWeb": "Korzystaj online →",
-      "mobileNote": "Masz już aplikację mobilną? Korzystaj z niej także w przeglądarce <strong>bez ponownej płatności</strong>: w aplikacji przejdź do Ustawienia → «Aktywuj wersję webową»."
+      "mobileNote": "Masz już aplikację mobilną? Masz <strong>specjalną cenę</strong> w wersji web (19,99 € lub 6,99 €/rok): aktywuj ją w aplikacji w Ustawieniach → „Aktywuj wersję web\".",
+      "perYear": "/rok",
+      "priceWebOr": "lub"
     },
     "download": {
       "title": "Przenieś swój warsztat na wyższy poziom",
