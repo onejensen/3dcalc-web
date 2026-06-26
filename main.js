@@ -26,6 +26,13 @@ function localeFor(lang) {
 }
 
 function getLang() {
+  // A ?lang=xx deep link (e.g. from the app's Privacy/Terms links) wins and persists,
+  // so a German app user lands on the German legal page rather than the last-used one.
+  const fromQuery = new URLSearchParams(location.search).get('lang');
+  if (LANGUAGES.some(l => l.code === fromQuery)) {
+    localStorage.setItem('lang', fromQuery);
+    return fromQuery;
+  }
   const saved = localStorage.getItem('lang');
   return LANGUAGES.some(l => l.code === saved) ? saved : 'es';
 }
