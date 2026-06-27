@@ -1,5 +1,6 @@
 window.t = {
   "es": {
+    "meta": { "title": "Calculadora de costes de impresión 3D | 3Dcalc+", "description": "Calcula costes reales de impresión 3D con filamento, resina, energía y mano de obra. Genera presupuestos PDF profesionales en iOS, Android, iPadOS y macOS." },
     "nav": {
       "features": "Características",
       "pricing": "Precios",
@@ -185,6 +186,7 @@ window.t = {
     }
   },
   "en": {
+    "meta": { "title": "3D Printing Cost Calculator | 3Dcalc+", "description": "Calculate the real cost of 3D prints — filament, resin, energy and labor — and generate professional PDF quotes on iOS, Android, iPadOS and macOS." },
     "nav": {
       "features": "Features",
       "pricing": "Pricing",
@@ -370,6 +372,7 @@ window.t = {
     }
   },
   "fr": {
+    "meta": { "title": "Calculateur de coûts d'impression 3D | 3Dcalc+", "description": "Calculez le coût réel de vos impressions 3D (filament, résine, énergie, main-d'œuvre) et générez des devis PDF professionnels sur iOS, Android, iPadOS et macOS." },
     "nav": {
       "features": "Fonctionnalités",
       "pricing": "Tarifs",
@@ -555,6 +558,7 @@ window.t = {
     }
   },
   "de": {
+    "meta": { "title": "3D-Druck-Kostenrechner | 3Dcalc+", "description": "Berechne die realen Kosten deiner 3D-Drucke — Filament, Harz, Energie und Arbeit — und erstelle professionelle PDF-Angebote auf iOS, Android, iPadOS und macOS." },
     "nav": {
       "features": "Funktionen",
       "pricing": "Preise",
@@ -740,6 +744,7 @@ window.t = {
     }
   },
   "it": {
+    "meta": { "title": "Calcolatore dei costi di stampa 3D | 3Dcalc+", "description": "Calcola il costo reale delle tue stampe 3D (filamento, resina, energia e manodopera) e genera preventivi PDF professionali su iOS, Android, iPadOS e macOS." },
     "nav": {
       "features": "Caratteristiche",
       "pricing": "Prezzi",
@@ -925,6 +930,7 @@ window.t = {
     }
   },
   "pt": {
+    "meta": { "title": "Calculadora de custos de impressão 3D | 3Dcalc+", "description": "Calcula os custos reais de impressão 3D com filamento, resina, energia e mão de obra. Gera orçamentos PDF profissionais em iOS, Android, iPadOS e macOS." },
     "nav": {
       "features": "Funcionalidades",
       "pricing": "Preços",
@@ -1110,6 +1116,7 @@ window.t = {
     }
   },
   "ca": {
+    "meta": { "title": "Calculadora de costos d'impressió 3D | 3Dcalc+", "description": "Calcula els costos reals d'impressió 3D amb filament, resina, energia i mà d'obra. Genera pressupostos PDF professionals a iOS, Android, iPadOS i macOS." },
     "nav": {
       "features": "Característiques",
       "pricing": "Preus",
@@ -1295,6 +1302,7 @@ window.t = {
     }
   },
   "ru": {
+    "meta": { "title": "Калькулятор стоимости 3D-печати | 3Dcalc+", "description": "Рассчитайте реальную стоимость 3D-печати — пластик, смола, электроэнергия и труд — и создавайте профессиональные PDF-сметы на iOS, Android, iPadOS и macOS." },
     "nav": {
       "features": "Возможности",
       "pricing": "Цены",
@@ -1480,6 +1488,7 @@ window.t = {
     }
   },
   "fi": {
+    "meta": { "title": "3D-tulostuksen kustannuslaskuri | 3Dcalc+", "description": "Laske 3D-tulosteiden todelliset kustannukset — filamentti, resiini, energia ja työ — ja luo ammattimaisia PDF-tarjouksia iOS-, Android-, iPadOS- ja macOS-laitteilla." },
     "nav": {
       "features": "Ominaisuudet",
       "pricing": "Hinnat",
@@ -1665,6 +1674,7 @@ window.t = {
     }
   },
   "cs": {
+    "meta": { "title": "Kalkulačka nákladů na 3D tisk | 3Dcalc+", "description": "Spočítejte si reálné náklady na 3D tisk — filament, pryskyřice, energie a práce — a vytvářejte profesionální PDF nabídky na iOS, Android, iPadOS a macOS." },
     "nav": {
       "features": "Funkce",
       "pricing": "Ceny",
@@ -1850,6 +1860,7 @@ window.t = {
     }
   },
   "nl": {
+    "meta": { "title": "Kostencalculator voor 3D-printen | 3Dcalc+", "description": "Bereken de echte kosten van 3D-prints — filament, hars, energie en arbeid — en genereer professionele PDF-offertes op iOS, Android, iPadOS en macOS." },
     "nav": {
       "features": "Functies",
       "pricing": "Prijzen",
@@ -2035,6 +2046,7 @@ window.t = {
     }
   },
   "pl": {
+    "meta": { "title": "Kalkulator kosztów druku 3D | 3Dcalc+", "description": "Oblicz rzeczywiste koszty druku 3D — filament, żywica, energia i robocizna — i twórz profesjonalne wyceny PDF na iOS, Android, iPadOS i macOS." },
     "nav": {
       "features": "Funkcje",
       "pricing": "Cennik",

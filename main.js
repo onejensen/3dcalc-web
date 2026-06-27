@@ -25,8 +25,16 @@ function localeFor(lang) {
   return (LANGUAGES.find(l => l.code === lang) || LANGUAGES[0]).locale;
 }
 
+/** True for the homepage in any language: '/', '/index.html', '/xx/', '/xx/index.html'. */
+function isHomePath(p) {
+  return /^\/(([a-z]{2})\/)?(index\.html)?$/.test(p);
+}
+
 function getLang() {
-  // A ?lang=xx deep link (e.g. from the app's Privacy/Terms links) wins and persists,
+  // 1) Static per-language homepage (/en/, /de/, …): the path is the source of truth.
+  const seg = location.pathname.split('/')[1];
+  if (LANGUAGES.some(l => l.code === seg)) return seg;
+  // 2) A ?lang=xx deep link (e.g. from the app's Privacy/Terms links) wins and persists,
   // so a German app user lands on the German legal page rather than the last-used one.
   const fromQuery = new URLSearchParams(location.search).get('lang');
   if (LANGUAGES.some(l => l.code === fromQuery)) {
@@ -80,6 +88,12 @@ function applyTranslations(lang) {
 
 function setLang(lang) {
   localStorage.setItem('lang', lang);
+  // On the homepage there are real per-language URLs (/ for es, /xx/ otherwise), so
+  // switching navigates there for proper SEO. Elsewhere we translate in place.
+  if (isHomePath(location.pathname)) {
+    window.location.href = lang === 'es' ? '/' : '/' + lang + '/';
+    return;
+  }
   applyTranslations(lang);
 }
 

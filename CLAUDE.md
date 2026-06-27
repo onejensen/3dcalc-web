@@ -14,13 +14,26 @@ HTML/CSS/JS plano — sin framework, sin bundler, sin build step. Lo que ves en 
 
 | Archivo | Rol |
 |---|---|
-| `index.html` | Landing principal (hero, stats, features, how-it-works, mockup, testimonials, pricing, download, FAQ, footer) |
+| `index.html` | Landing principal en **español** (hero, stats, features, how-it-works, mockup, testimonials, pricing, download, FAQ, footer) |
+| `en/`, `de/`, `fr/`, … (11) | **Homepages estáticas por idioma — GENERADAS, no editar a mano.** Salen de `index.html` + `translations.js` vía `build-i18n.mjs`. |
+| `guia-costes-impresion-3d.html`, `cuanto-cuesta-imprimir-en-3d.html`, `consumo-electrico-impresora-3d.html` | Guías SEO (solo español) |
 | `privacy.html`, `terms.html`, `support.html` | Páginas legales y FAQ |
 | `styles.css` | Estilos globales — design tokens en `:root` arriba del archivo |
-| `translations.js` | Diccionario i18n `window.t = { es, en }` |
-| `main.js` | Lang switcher, FAQ accordion, scroll-reveal, stats counter, nav móvil |
-| `sitemap.xml`, `robots.txt`, `CNAME`, `.nojekyll` | SEO + GitHub Pages config |
+| `translations.js` | Diccionario i18n `window.t = { es, en, … }` (12 idiomas, incl. bloque `meta` con title/description SEO) |
+| `main.js` | Lang switcher (en la home navega a `/xx/`; en otras páginas traduce in situ), FAQ accordion, scroll-reveal, stats counter, nav móvil |
+| `build-i18n.mjs` | Generador de las homepages por idioma (`node build-i18n.mjs`) |
+| `sitemap.xml`, `robots.txt`, `llms.txt`, `CNAME`, `.nojekyll` | SEO/GEO + GitHub Pages config |
 | `assets/` | `logo-320.png`, `logo-512.png`, `favicon.png` |
+
+## ⚠️ Paso de compilación (multilingüe)
+
+El sitio es casi todo "lo que ves es lo que se sirve", PERO las homepages por idioma (`/en/`, `/de/`, …) son **generadas**. **Tras editar `index.html` o `translations.js`, ejecuta antes de commitear:**
+
+```bash
+node build-i18n.mjs   # regenera en/index.html, de/index.html, … desde index.html + translations.js
+```
+
+Si no lo haces, las versiones por idioma quedan desactualizadas. El español (`/`) NO se genera — `index.html` es la fuente. Cada `/xx/` lleva su contenido traducido en el HTML (para crawlers), su `<title>`/meta, canonical propio y `hreflang` recíproco.
 
 ## Sistema de diseño — "Maker Bold Fusión"
 
