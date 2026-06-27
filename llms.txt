@@ -1,0 +1,38 @@
+# 3Dcalc+ — Calculadora de costes de impresión 3D
+
+> 3Dcalc+ es una calculadora de costes de impresión 3D para makers y negocios. Calcula el coste real de cada impresión (filamento o resina, energía, desgaste de la máquina, mano de obra y margen de beneficio) y genera presupuestos en PDF profesionales. Disponible como app nativa (iOS, Android, iPadOS, macOS) y como calculadora online gratuita en el navegador. Desarrollada por Sozolabs.
+
+## Qué hace
+
+3Dcalc+ responde a la pregunta "¿cuánto cuesta esta impresión 3D y a qué precio la vendo?". Suma de forma transparente todos los costes reales de una pieza impresa en 3D:
+
+- **Material**: filamento (FDM, €/kg) o resina (€/L), según el peso o volumen usado.
+- **Energía**: consumo eléctrico de la impresora (vatios × horas × precio del kWh).
+- **Desgaste de la máquina**: amortización por horas de uso (precio de la impresora / vida útil).
+- **Mano de obra**: tiempo de preparación y postprocesado por una tarifa horaria.
+- **Margen de beneficio**: multiplicador o porcentaje configurable para fijar el precio de venta.
+- **Impuestos** opcionales (IVA) y costes extra por línea.
+
+Soporta **multipieza** (varias piezas en un mismo presupuesto), **multicolor/AMS**, impresión en **resina**, inventario de materiales con descuento de stock, e **historial de presupuestos** sincronizado en la nube entre dispositivos.
+
+## Calculadora online gratuita
+
+La versión web permite calcular costes de impresión 3D directamente en el navegador, sin registro y gratis. Iniciar sesión solo es necesario para guardar presupuestos en la nube, gestionar inventario y sincronizar entre dispositivos.
+
+- [Calculadora online](https://www.3dcalc.app/app): usar gratis, sin instalar nada.
+- [Web principal](https://www.3dcalc.app/): información del producto y descargas.
+- [Soporte y preguntas frecuentes](https://www.3dcalc.app/support.html): FAQ sobre resina, multicolor, sincronización y presupuestos PDF.
+
+## Datos clave
+
+- **Idiomas**: español, inglés, catalán, francés, alemán, italiano, portugués, neerlandés, polaco, checo, finés y ruso (12).
+- **Plataformas**: iOS, Android, iPadOS, macOS y web (PWA).
+- **Modelo**: la calculadora básica es gratuita; las funciones Pro (presupuestos guardados, inventario, sincronización, PDF con logo) son un pago único.
+- **Empresa**: Sozolabs — contacto: info@sozo3d.es
+- **App Store**: https://apps.apple.com/es/app/3dcalc/id6752701677
+- **Google Play**: https://play.google.com/store/apps/details?id=com.sozolabs.calc3D
+
+## Legal
+
+- [Política de Privacidad](https://www.3dcalc.app/privacy.html)
+- [Términos de Uso](https://www.3dcalc.app/terms.html)

@@ -3,18 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script>document.documentElement.lang = localStorage.getItem('lang') || 'es';</script>
+  <script>(function(){var q=new URLSearchParams(location.search).get('lang');var ok=['es','en','ca','fr','de','it','pt','nl','pl','cs','fi','ru'].indexOf(q)>=0;document.documentElement.lang=ok?q:(localStorage.getItem('lang')||'es');})();</script>
   <title>Calculadora de costes de impresión 3D | 3Dcalc+</title>
   <meta name="description" content="Calcula costes reales de impresión 3D con filamento, resina, energía y mano de obra. Genera presupuestos PDF profesionales en iOS, Android, iPadOS y macOS.">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <meta name="theme-color" content="#05070f">
   <link rel="canonical" href="https://www.3dcalc.app/">
 
+  <!-- hreflang: each ?lang= URL renders that language (handled in main.js). Canonical
+       is rewritten per-language below so each variant self-references. -->
+  <link rel="alternate" hreflang="es" href="https://www.3dcalc.app/">
+  <link rel="alternate" hreflang="en" href="https://www.3dcalc.app/?lang=en">
+  <link rel="alternate" hreflang="ca" href="https://www.3dcalc.app/?lang=ca">
+  <link rel="alternate" hreflang="fr" href="https://www.3dcalc.app/?lang=fr">
+  <link rel="alternate" hreflang="de" href="https://www.3dcalc.app/?lang=de">
+  <link rel="alternate" hreflang="it" href="https://www.3dcalc.app/?lang=it">
+  <link rel="alternate" hreflang="pt" href="https://www.3dcalc.app/?lang=pt">
+  <link rel="alternate" hreflang="nl" href="https://www.3dcalc.app/?lang=nl">
+  <link rel="alternate" hreflang="pl" href="https://www.3dcalc.app/?lang=pl">
+  <link rel="alternate" hreflang="cs" href="https://www.3dcalc.app/?lang=cs">
+  <link rel="alternate" hreflang="fi" href="https://www.3dcalc.app/?lang=fi">
+  <link rel="alternate" hreflang="ru" href="https://www.3dcalc.app/?lang=ru">
+  <link rel="alternate" hreflang="x-default" href="https://www.3dcalc.app/">
+
   <!-- Open Graph -->
   <meta property="og:type"        content="website">
   <meta property="og:url"         content="https://www.3dcalc.app/">
   <meta property="og:site_name"   content="3Dcalc+">
   <meta property="og:locale"      content="es_ES">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="ca_ES">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="it_IT">
+  <meta property="og:locale:alternate" content="pt_PT">
+  <meta property="og:locale:alternate" content="nl_NL">
+  <meta property="og:locale:alternate" content="pl_PL">
+  <meta property="og:locale:alternate" content="cs_CZ">
+  <meta property="og:locale:alternate" content="fi_FI">
+  <meta property="og:locale:alternate" content="ru_RU">
   <meta property="og:title"       content="Calculadora de costes de impresión 3D | 3Dcalc+">
   <meta property="og:description" content="Calcula costes reales de impresión 3D con filamento, resina, energía y mano de obra. Genera presupuestos PDF profesionales.">
   <meta property="og:image"       content="https://www.3dcalc.app/assets/logo-512.png">
@@ -82,6 +109,26 @@
         "publisher": {
           "@id": "https://www.3dcalc.app/#organization"
         }
+      },
+      {
+        "@type": "WebApplication",
+        "@id": "https://www.3dcalc.app/#webapp",
+        "name": "Calculadora de costes de impresión 3D",
+        "url": "https://www.3dcalc.app/app",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web",
+        "browserRequirements": "Requires JavaScript",
+        "inLanguage": ["es","en","ca","fr","de","it","pt","nl","pl","cs","fi","ru"],
+        "isAccessibleForFree": true,
+        "description": "Calculadora online gratuita para calcular el coste real de tus impresiones 3D: material (filamento o resina), energía, desgaste de la máquina, mano de obra y margen. Funciona en el navegador, sin registro.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EUR"
+        },
+        "publisher": {
+          "@id": "https://www.3dcalc.app/#organization"
+        }
       }
     ]
   }
@@ -91,6 +138,18 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+
+  <script>
+  // Self-canonical per language: a ?lang= variant points its canonical + og:url at
+  // itself, so the hreflang alternates aren't overridden by a single "/"-canonical.
+  (function(){
+    var q = new URLSearchParams(location.search).get('lang');
+    if (['en','ca','fr','de','it','pt','nl','pl','cs','fi','ru'].indexOf(q) < 0) return; // es / none keep "/"
+    var url = 'https://www.3dcalc.app/?lang=' + q;
+    var c = document.querySelector('link[rel="canonical"]'); if (c) c.href = url;
+    var og = document.querySelector('meta[property="og:url"]'); if (og) og.setAttribute('content', url);
+  })();
+  </script>
 </head>
 <body class="grid-bg">
 
@@ -178,7 +237,7 @@
 
         <!-- Logo app en hero -->
         <div class="hero-app-logo reveal delay-2">
-          <img src="assets/logo-320.png" alt="3Dcalc+" class="hero-logo-image" width="320" height="320">
+          <img src="assets/logo-320.png" alt="3Dcalc+ — calculadora de costes de impresión 3D" class="hero-logo-image" width="320" height="320">
         </div>
       </div>
     </section>
@@ -516,6 +575,7 @@
         <div class="footer-logo">3DCALC<span>+</span></div>
         <p class="footer-copy" data-i18n="footer.copy">© 2026 Sozolabs</p>
         <nav class="footer-links">
+          <a href="guia-costes-impresion-3d.html">Guía de costes</a>
           <a href="privacy.html" data-i18n="footer.privacy">Política de Privacidad</a>
           <a href="terms.html"   data-i18n="footer.terms">Términos de Uso</a>
           <a href="support.html" data-i18n="footer.support">Soporte</a>

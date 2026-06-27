@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>document.documentElement.lang = localStorage.getItem('lang') || 'es';</script>
+  <title>Cómo calcular los costes de impresión 3D — guía + calculadora | 3Dcalc+</title>
+  <meta name="description" content="Aprende a calcular el coste real de una impresión 3D: material, energía, desgaste de la máquina, mano de obra y margen. Con fórmula, ejemplo y calculadora online gratis.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="theme-color" content="#05070f">
+  <link rel="canonical" href="https://www.3dcalc.app/guia-costes-impresion-3d.html">
+
+  <meta property="og:type"        content="article">
+  <meta property="og:url"         content="https://www.3dcalc.app/guia-costes-impresion-3d.html">
+  <meta property="og:site_name"   content="3Dcalc+">
+  <meta property="og:locale"      content="es_ES">
+  <meta property="og:title"       content="Cómo calcular los costes de impresión 3D — guía + calculadora">
+  <meta property="og:description" content="Material, energía, desgaste, mano de obra y margen: la fórmula completa para saber cuánto cuesta una impresión 3D y a qué precio venderla.">
+  <meta property="og:image"       content="https://www.3dcalc.app/assets/logo-512.png">
+  <meta property="og:image:width" content="512">
+  <meta property="og:image:height" content="512">
+  <meta property="og:image:type"  content="image/png">
+  <meta property="og:image:alt"   content="Logo de 3Dcalc+">
+  <meta name="twitter:card"        content="summary">
+  <meta name="twitter:title"       content="Cómo calcular los costes de impresión 3D — guía + calculadora">
+  <meta name="twitter:description" content="La fórmula completa para calcular el coste real de una impresión 3D y fijar su precio de venta.">
+  <meta name="twitter:image"       content="https://www.3dcalc.app/assets/logo-512.png">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="apple-touch-icon"      href="assets/logo-512.png">
+
+  <!-- JSON-LD: Article + FAQPage (FAQ matches the visible content below) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "headline": "Cómo calcular los costes de impresión 3D",
+        "description": "Guía para calcular el coste real de una impresión 3D (material, energía, desgaste, mano de obra y margen) y fijar el precio de venta.",
+        "inLanguage": "es",
+        "image": "https://www.3dcalc.app/assets/logo-512.png",
+        "author": { "@type": "Organization", "name": "Sozolabs" },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Sozolabs",
+          "logo": { "@type": "ImageObject", "url": "https://www.3dcalc.app/assets/logo-512.png" }
+        },
+        "mainEntityOfPage": "https://www.3dcalc.app/guia-costes-impresion-3d.html"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Cómo se calcula el coste de una impresión 3D?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Se suman cinco componentes: material (gramos de filamento o mililitros de resina por su precio), energía (vatios de la impresora por las horas de impresión y el precio del kWh), desgaste de la máquina (precio de la impresora dividido por su vida útil en horas, por las horas de impresión), mano de obra (tiempo de preparación y postprocesado por tu tarifa horaria) y, sobre ese coste, el margen de beneficio para fijar el precio de venta." }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuánto cuesta imprimir 1 kg de filamento?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Solo en material, lo que pagues por el carrete: un kilo de PLA suele costar entre 15 y 25 €. Pero el coste real de imprimir ese kilo es mayor, porque hay que sumar la electricidad, el desgaste de la impresora y tu tiempo. Por eso conviene calcular el coste por pieza y no solo el del material." }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Qué margen debo aplicar a mis impresiones 3D?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Depende del mercado y del valor que aportes, pero un punto de partida habitual entre makers es multiplicar el coste por 2 o por 3 (margen del 100 %–200 %). 3Dcalc+ te permite fijar el margen como multiplicador o como porcentaje y ver el precio de venta al instante." }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Hay una calculadora de costes de impresión 3D gratis?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Sí. Puedes usar la calculadora online de 3Dcalc+ gratis y sin registro en https://www.3dcalc.app/app. Solo necesitas una cuenta si quieres guardar presupuestos, gestionar inventario o sincronizar entre dispositivos." }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="grid-bg">
+
+  <header>
+    <nav>
+      <a href="index.html" class="logo">
+        <img src="assets/logo-320.png" alt="3Dcalc+" class="logo-img" width="320" height="320">
+        <span class="logo-text">3DCALC<span>+</span></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html#features" data-i18n="nav.features">Características</a></li>
+        <li><a href="index.html#pricing"  data-i18n="nav.pricing">Precios</a></li>
+        <li><a href="support.html"        data-i18n="nav.support">Soporte</a></li>
+      </ul>
+      <div class="nav-right">
+        <button class="hamburger" aria-label="Menú" data-i18n-aria="nav.menu_aria" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <select class="lang-select" aria-label="Cambiar idioma" data-i18n-aria="nav.lang_aria"></select>
+        <a href="index.html#download" class="btn-nav" data-i18n="nav.download">Descargar</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="page-hero">
+      <div class="page-hero-glow"></div>
+      <div class="container">
+        <p class="section-label">— Guía</p>
+        <h1>Cómo calcular los costes de impresión 3D</h1>
+        <p>Material, energía, desgaste, mano de obra y margen: la fórmula completa para saber cuánto te cuesta una impresión 3D y a qué precio venderla, sin perder dinero.</p>
+        <p style="margin-top:24px;">
+          <a href="/app" class="btn-nav">Calcular online gratis →</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="page-body">
+      <div class="container">
+        <div class="page-content">
+
+          <p>Cobrar una impresión 3D «a ojo» es la forma más rápida de trabajar gratis. El precio del filamento es solo una parte del coste: también pagas electricidad, desgastas la impresora e inviertes tu tiempo. Esta guía explica, paso a paso, cómo calcular el <strong>coste real de una impresión 3D</strong> y cómo fijar su precio de venta con un margen sano.</p>
+
+          <h2>Los 5 componentes del coste de una impresión 3D</h2>
+
+          <h3>1. Material (filamento o resina)</h3>
+          <p>Es el coste más evidente. Para <strong>FDM</strong>: divide el precio del carrete entre sus gramos y multiplícalo por los gramos que usa la pieza. Para <strong>resina</strong> (SLA/DLP): igual, pero por mililitros. Ejemplo: una pieza de 50 g con un carrete de PLA de 1 kg a 20 € cuesta <strong>1,00 €</strong> en material (50 ÷ 1000 × 20).</p>
+
+          <h3>2. Energía eléctrica</h3>
+          <p>Multiplica la potencia de la impresora (en kW) por las horas de impresión y por el precio de tu kWh. Una impresora de 150 W (0,15 kW) imprimiendo 5 h con electricidad a 0,20 €/kWh consume <strong>0,15 €</strong> (0,15 × 5 × 0,20).</p>
+
+          <h3>3. Desgaste de la máquina (amortización)</h3>
+          <p>Tu impresora no es eterna. Divide su precio entre su vida útil estimada en horas para obtener un coste por hora, y multiplícalo por las horas de impresión. Una impresora de 300 € con 2.000 h de vida útil cuesta 0,15 €/h; en una impresión de 5 h, <strong>0,75 €</strong> de desgaste. Aquí entran también boquillas, correas y mantenimiento.</p>
+
+          <h3>4. Mano de obra</h3>
+          <p>El tiempo que dedicas a preparar el archivo, lanzar la impresión, retirar soportes y postprocesar tiene valor. Multiplica ese tiempo por tu tarifa horaria. 15 minutos a 12 €/h son <strong>3,00 €</strong>. Es el componente que más se olvida y el que más encarece las piezas pequeñas.</p>
+
+          <h3>5. Margen de beneficio</h3>
+          <p>Suma los cuatro componentes anteriores para obtener el <strong>coste</strong>. Después aplica tu margen para fijar el <strong>precio de venta</strong>: como multiplicador (×2, ×3) o como porcentaje. Sin margen, no hay negocio; solo recuperas gastos.</p>
+
+          <h2>Ejemplo completo</h2>
+          <p>Pieza de 50 g de PLA, 5 horas de impresión, impresora de 150 W y 300 €, 15 min de trabajo:</p>
+          <ul>
+            <li><strong>Material:</strong> 1,00 €</li>
+            <li><strong>Energía:</strong> 0,15 €</li>
+            <li><strong>Desgaste:</strong> 0,75 €</li>
+            <li><strong>Mano de obra:</strong> 3,00 €</li>
+            <li><strong>Coste total:</strong> 4,90 €</li>
+            <li><strong>Precio con margen ×2:</strong> ≈ 9,80 €</li>
+          </ul>
+          <p>Cambiar un solo dato (más relleno, otra tarifa, electricidad más cara) altera el resultado. Por eso lo práctico es usar una calculadora que rehaga todo el cálculo al instante.</p>
+
+          <h2>Calcula tus costes en segundos</h2>
+          <p><strong>3Dcalc+</strong> hace exactamente este cálculo por ti, con soporte para multipieza, multicolor/AMS, resina, impuestos (IVA) y costes extra. Puedes usar la <strong>calculadora online gratis y sin registro</strong>, o instalar la app para guardar presupuestos, gestionar tu inventario de materiales y generar <strong>presupuestos en PDF con tu logo</strong>.</p>
+          <p style="margin-top:8px;">
+            <a href="/app" class="btn-nav">Abrir la calculadora online →</a>
+          </p>
+
+          <p class="section-label" style="text-align:left;margin:48px 0 8px;">— Preguntas frecuentes</p>
+          <h2 style="color:var(--text-primary);margin-top:0;">FAQ sobre costes de impresión 3D</h2>
+
+          <div class="faq-list" style="margin-top:24px;">
+            <div class="faq-item">
+              <button class="faq-question" type="button" aria-expanded="false">
+                <span>¿Cómo se calcula el coste de una impresión 3D?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </button>
+              <div class="faq-answer">
+                <p>Sumando cinco componentes: material, energía, desgaste de la máquina, mano de obra y, sobre ese coste, el margen de beneficio para fijar el precio de venta.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question" type="button" aria-expanded="false">
+                <span>¿Cuánto cuesta imprimir 1 kg de filamento?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </button>
+              <div class="faq-answer">
+                <p>En material, lo que pagues por el carrete (un kilo de PLA, entre 15 y 25 € normalmente). El coste real de imprimirlo es mayor: hay que sumar electricidad, desgaste y tu tiempo. Por eso conviene calcular el coste por pieza.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question" type="button" aria-expanded="false">
+                <span>¿Qué margen debo aplicar a mis impresiones 3D?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </button>
+              <div class="faq-answer">
+                <p>Depende del mercado, pero un punto de partida habitual es multiplicar el coste por 2 o por 3. En 3Dcalc+ puedes fijar el margen como multiplicador o porcentaje y ver el precio al instante.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question" type="button" aria-expanded="false">
+                <span>¿Hay una calculadora de costes de impresión 3D gratis?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </button>
+              <div class="faq-answer">
+                <p>Sí: la <a href="/app">calculadora online de 3Dcalc+</a> es gratis y sin registro. Solo necesitas cuenta para guardar presupuestos, inventario o sincronizar entre dispositivos.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <h3>Calcula y presupuesta sin perder dinero</h3>
+            <p>Prueba 3Dcalc+ gratis en el navegador o instálalo en tu móvil.</p>
+            <a href="/app" class="btn-contact">Abrir la calculadora online</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">3DCALC<span>+</span></div>
+        <p class="footer-copy" data-i18n="footer.copy">© 2026 Sozolabs</p>
+        <nav class="footer-links">
+          <a href="guia-costes-impresion-3d.html">Guía de costes</a>
+          <a href="privacy.html" data-i18n="footer.privacy">Política de Privacidad</a>
+          <a href="terms.html"   data-i18n="footer.terms">Términos de Uso</a>
+          <a href="support.html" data-i18n="footer.support">Soporte</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="translations.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
