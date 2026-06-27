@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>document.documentElement.lang = localStorage.getItem('lang') || 'es';</script>
+  <title>Consumo eléctrico de una impresora 3D: cuánto gasta y cómo calcularlo | 3Dcalc+</title>
+  <meta name="description" content="Cuánto consume una impresora 3D, cómo calcular el gasto de luz por impresión (kWh) con la fórmula y un ejemplo, y cómo reducirlo. Calculadora gratis.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="theme-color" content="#05070f">
+  <link rel="canonical" href="https://www.3dcalc.app/consumo-electrico-impresora-3d.html">
+
+  <meta property="og:type"        content="article">
+  <meta property="og:url"         content="https://www.3dcalc.app/consumo-electrico-impresora-3d.html">
+  <meta property="og:site_name"   content="3Dcalc+">
+  <meta property="og:locale"      content="es_ES">
+  <meta property="og:title"       content="Consumo eléctrico de una impresora 3D: cuánto gasta y cómo calcularlo">
+  <meta property="og:description" content="Cuánto consume una impresora 3D y cómo calcular el gasto de luz por impresión, con fórmula y ejemplo.">
+  <meta property="og:image"       content="https://www.3dcalc.app/assets/logo-512.png">
+  <meta property="og:image:width" content="512">
+  <meta property="og:image:height" content="512">
+  <meta property="og:image:type"  content="image/png">
+  <meta property="og:image:alt"   content="Logo de 3Dcalc+">
+  <meta name="twitter:card"        content="summary">
+  <meta name="twitter:title"       content="Consumo eléctrico de una impresora 3D">
+  <meta name="twitter:description" content="Cuánto consume una impresora 3D y cómo calcular el gasto de luz por impresión.">
+  <meta name="twitter:image"       content="https://www.3dcalc.app/assets/logo-512.png">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="apple-touch-icon"      href="assets/logo-512.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "headline": "Consumo eléctrico de una impresora 3D",
+        "description": "Cuánto consume una impresora 3D y cómo calcular el gasto eléctrico por impresión, con fórmula y ejemplo.",
+        "inLanguage": "es",
+        "image": "https://www.3dcalc.app/assets/logo-512.png",
+        "author": { "@type": "Organization", "name": "Sozolabs" },
+        "publisher": { "@type": "Organization", "name": "Sozolabs", "logo": { "@type": "ImageObject", "url": "https://www.3dcalc.app/assets/logo-512.png" } },
+        "mainEntityOfPage": "https://www.3dcalc.app/consumo-electrico-impresora-3d.html"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Cuánto consume una impresora 3D?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Una impresora 3D FDM doméstica consume de media entre 80 y 150 W durante la impresión (con picos al calentar la cama y el hotend). Eso equivale a unos 0,08–0,15 kWh por hora. Una impresión de 5 horas gasta aproximadamente 0,4–0,75 kWh." }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cómo se calcula el gasto de luz de una impresión 3D?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Multiplica la potencia de la impresora en kilovatios (W ÷ 1000) por las horas de impresión y por el precio de tu kWh. Fórmula: gasto = (vatios ÷ 1000) × horas × precio_kWh. Por ejemplo, 120 W durante 5 h a 0,20 €/kWh = 0,12 kW × 5 × 0,20 = 0,12 €." }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuánto cuesta en electricidad imprimir durante toda la noche?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Una impresión de 8 horas con una impresora de 120 W a 0,20 €/kWh cuesta unos 0,19 € de electricidad. Incluso una impresión larga rara vez supera los 0,30–0,50 € de luz; el grueso del coste suele ser el material y tu tiempo." }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="grid-bg">
+
+  <header>
+    <nav>
+      <a href="index.html" class="logo">
+        <img src="assets/logo-320.png" alt="3Dcalc+" class="logo-img" width="320" height="320">
+        <span class="logo-text">3DCALC<span>+</span></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html#features" data-i18n="nav.features">Características</a></li>
+        <li><a href="index.html#pricing"  data-i18n="nav.pricing">Precios</a></li>
+        <li><a href="support.html"        data-i18n="nav.support">Soporte</a></li>
+      </ul>
+      <div class="nav-right">
+        <button class="hamburger" aria-label="Menú" data-i18n-aria="nav.menu_aria" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <select class="lang-select" aria-label="Cambiar idioma" data-i18n-aria="nav.lang_aria"></select>
+        <a href="index.html#download" class="btn-nav" data-i18n="nav.download">Descargar</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="page-hero">
+      <div class="page-hero-glow"></div>
+      <div class="container">
+        <p class="section-label">— Guía</p>
+        <h1>Consumo eléctrico de una impresora 3D</h1>
+        <p>Cuánto gasta de luz tu impresora 3D, cómo calcular el coste eléctrico de cada impresión con una fórmula sencilla y cómo reducirlo.</p>
+        <p style="margin-top:24px;"><a href="/app" class="btn-nav">Calcular el gasto gratis →</a></p>
+      </div>
+    </div>
+
+    <div class="page-body">
+      <div class="container">
+        <div class="page-content">
+
+          <p>El miedo a «dejar la impresora toda la noche» suele ser exagerado: el <strong>consumo eléctrico de una impresora 3D</strong> es bajo comparado con el material o tu tiempo. Veamos cuánto gasta de verdad y cómo calcularlo para incluirlo en el coste de tus piezas.</p>
+
+          <h2>¿Cuánto consume una impresora 3D?</h2>
+          <p>Una impresora <strong>FDM</strong> doméstica consume de media <strong>80–150 W</strong> mientras imprime, con picos más altos al calentar la cama caliente y el hotend al inicio. En kWh, eso son unos 0,08–0,15 kWh por hora. Las impresoras grandes o con cama de vidrio/varios extrusores consumen más; las pequeñas (tipo Ender o Mini), menos.</p>
+
+          <h2>La fórmula del gasto eléctrico</h2>
+          <p>Para calcular el coste de luz de una impresión:</p>
+          <p><strong>Gasto = (vatios ÷ 1000) × horas de impresión × precio del kWh</strong></p>
+          <p>Necesitas tres datos: la potencia de tu impresora (mejor con un medidor de enchufe tipo vatímetro, o usa 100–120 W como estimación), las horas que tarda la impresión (te lo da el laminador) y el precio de tu kWh (mira tu factura; en España suele rondar 0,10–0,25 €/kWh según tarifa y franja).</p>
+
+          <h2>Ejemplo</h2>
+          <p>Impresora de 120 W, impresión de 5 horas, electricidad a 0,20 €/kWh:</p>
+          <ul>
+            <li>(120 ÷ 1000) = 0,12 kW</li>
+            <li>0,12 kW × 5 h = 0,60 kWh</li>
+            <li>0,60 kWh × 0,20 €/kWh = <strong>0,12 €</strong></li>
+          </ul>
+          <p>Doce céntimos. Incluso una impresión de 12 horas rondaría los 0,30 €. Por eso la electricidad casi nunca es el factor que más encarece una pieza: lo son el material y la mano de obra.</p>
+
+          <h2>Cómo reducir el consumo</h2>
+          <ul>
+            <li>Usa <strong>cama caliente</strong> solo a la temperatura necesaria y desactívala en materiales que no la requieren.</li>
+            <li>Aprovecha la <strong>franja horaria barata</strong> de tu tarifa si imprimes piezas largas.</li>
+            <li>Agrupa varias piezas en una misma impresión para amortizar el calentamiento inicial.</li>
+            <li><strong>Cierra/aísla</strong> la impresora (caja) para que mantenga temperatura con menos energía.</li>
+          </ul>
+
+          <h2>Inclúyelo en el coste real de la pieza</h2>
+          <p>La energía es solo uno de los cinco componentes del coste. <strong>3Dcalc+</strong> calcula automáticamente la electricidad junto al material, el desgaste, la mano de obra y el margen, para darte el coste y el precio de venta exactos. Pruébalo gratis en el navegador.</p>
+          <p style="margin-top:8px;"><a href="/app" class="btn-nav">Abrir la calculadora online →</a></p>
+
+          <div class="contact-card">
+            <h3>Más guías</h3>
+            <p>
+              <a href="guia-costes-impresion-3d.html">Cómo calcular los costes de impresión 3D</a> ·
+              <a href="cuanto-cuesta-imprimir-en-3d.html">¿Cuánto cuesta imprimir en 3D?</a>
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">3DCALC<span>+</span></div>
+        <p class="footer-copy" data-i18n="footer.copy">© 2026 Sozolabs</p>
+        <nav class="footer-links">
+          <a href="guia-costes-impresion-3d.html">Guía de costes</a>
+          <a href="privacy.html" data-i18n="footer.privacy">Política de Privacidad</a>
+          <a href="terms.html"   data-i18n="footer.terms">Términos de Uso</a>
+          <a href="support.html" data-i18n="footer.support">Soporte</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="translations.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
