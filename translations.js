@@ -6,6 +6,7 @@ window.t = {
       "pricing": "Precios",
       "support": "Soporte",
       "download": "Descargar",
+      "webapp": "Calculadora web",
       "menu_aria": "Menú",
       "lang_aria": "Cambiar idioma"
     },
@@ -16,7 +17,7 @@ window.t = {
       "appstore": "App Store",
       "googleplay": "Google Play",
       "available": "Disponible en",
-      "webapp": "Usar online →",
+      "webapp": "Abrir la calculadora web",
       "proof": "Más de 3.000 makers ya la usan"
     },
     "mockup": {
@@ -97,7 +98,7 @@ window.t = {
       "planWeb": "Versión web",
       "planWebSub": "Pago único o suscripción anual",
       "priceWeb": "29.99",
-      "ctaWeb": "Usar online →",
+      "ctaWeb": "Abrir la calculadora web",
       "mobileNote": "¿Ya tienes la app móvil? Tienes un <strong>precio especial</strong> en la web (19,99 € o 6,99 €/año): actívalo desde la app en Ajustes → «Activar versión web».",
       "perYear": "/año",
       "priceWebOr": "o"
@@ -192,6 +193,7 @@ window.t = {
       "pricing": "Pricing",
       "support": "Support",
       "download": "Download",
+      "webapp": "Web calculator",
       "menu_aria": "Menu",
       "lang_aria": "Switch language"
     },
@@ -202,7 +204,7 @@ window.t = {
       "appstore": "App Store",
       "googleplay": "Google Play",
       "available": "Available on",
-      "webapp": "Use online →",
+      "webapp": "Open the web calculator",
       "proof": "Trusted by over 3,000 makers"
     },
     "mockup": {
@@ -283,7 +285,7 @@ window.t = {
       "planWeb": "Web version",
       "planWebSub": "One-time or annual subscription",
       "priceWeb": "29.99",
-      "ctaWeb": "Use online →",
+      "ctaWeb": "Open the web calculator",
       "mobileNote": "Already have the mobile app? You get a <strong>special price</strong> on the web (€19.99 or €6.99/yr): activate it in the app under Settings → \"Activate web version\".",
       "perYear": "/year",
       "priceWebOr": "or"
@@ -378,6 +380,7 @@ window.t = {
       "pricing": "Tarifs",
       "support": "Assistance",
       "download": "Télécharger",
+      "webapp": "Calculateur web",
       "menu_aria": "Menu",
       "lang_aria": "Changer de langue"
     },
@@ -388,7 +391,7 @@ window.t = {
       "appstore": "App Store",
       "googleplay": "Google Play",
       "available": "Disponible sur",
-      "webapp": "Utiliser en ligne →",
+      "webapp": "Ouvrir le calculateur web",
       "proof": "Plus de 3 000 makers l'utilisent déjà"
     },
     "mockup": {
@@ -469,7 +472,7 @@ window.t = {
       "planWeb": "Version web",
       "planWebSub": "Paiement unique ou abonnement annuel",
       "priceWeb": "29.99",
-      "ctaWeb": "Utiliser en ligne →",
+      "ctaWeb": "Ouvrir le calculateur web",
       "mobileNote": "Vous avez déjà l'app mobile ? Vous bénéficiez d'un <strong>tarif spécial</strong> sur le web (19,99 € ou 6,99 €/an) : activez-le dans l'app sous Réglages → « Activer la version web ».",
       "perYear": "/an",
       "priceWebOr": "ou"
@@ -564,6 +567,7 @@ window.t = {
       "pricing": "Preise",
       "support": "Support",
       "download": "Herunterladen",
+      "webapp": "Web-Rechner",
       "menu_aria": "Menü",
       "lang_aria": "Sprache wechseln"
     },
@@ -574,7 +578,7 @@ window.t = {
       "appstore": "App Store",
       "googleplay": "Google Play",
       "available": "Verfügbar im",
-      "webapp": "Online nutzen →",
+      "webapp": "Web-Rechner öffnen",
       "proof": "Über 3.000 Maker nutzen sie bereits"
     },
     "mockup": {
@@ -655,7 +659,7 @@ window.t = {
       "planWeb": "Web-Version",
       "planWebSub": "Einmalzahlung oder Jahres-Abo",
       "priceWeb": "29.99",
-      "ctaWeb": "Online nutzen →",
+      "ctaWeb": "Web-Rechner öffnen",
       "mobileNote": "Hast du schon die Mobile-App? Du erhältst einen <strong>Sonderpreis</strong> im Web (19,99 € oder 6,99 €/Jahr): aktiviere ihn in der App unter Einstellungen → „Web-Version aktivieren\".",
       "perYear": "/Jahr",
       "priceWebOr": "oder"
@@ -750,6 +754,7 @@ window.t = {
       "pricing": "Prezzi",
       "support": "Supporto",
       "download": "Scarica",
+      "webapp": "Calcolatore web",
       "menu_aria": "Menu",
       "lang_aria": "Cambia lingua"
     },
@@ -760,7 +765,7 @@ window.t = {
       "appstore": "App Store",
       "googleplay": "Google Play",
       "available": "Disponibile su",
-      "webapp": "Usa online →",
+      "webapp": "Apri il calcolatore web",
       "proof": "Oltre 3.000 maker la usano già"
     },
     "mockup": {
@@ -841,7 +846,7 @@ window.t = {
       "planWeb": "Versione web",
       "planWebSub": "Pagamento unico o abbonamento annuale",
       "priceWeb": "29.99",
-      "ctaWeb": "Usa online →",
+      "ctaWeb": "Apri il calcolatore web",
       "mobileNote": "Hai già l'app mobile? Hai un <strong>prezzo speciale</strong> sul web (19,99 € o 6,99 €/anno): attivalo dall'app in Impostazioni → «Attiva versione web».",
       "perYear": "/anno",
       "priceWebOr": "o"
@@ -936,6 +941,7 @@ window.t = {
       "pricing": "Preços",
       "support": "Apoio",
       "download": "Descarregar",
+      "webapp": "Calculadora web",
       "menu_aria": "Menu",
       "lang_aria": "Mudar de idioma"
     },
@@ -946,7 +952,7 @@ window.t = {
       "appstore": "App Store",
       "googleplay": "Google Play",
       "available": "Disponível em",
-      "webapp": "Usar online →",
+      "webapp": "Abrir a calculadora web",
       "proof": "Mais de 3.000 makers já a utilizam"
     },
     "mockup": {
@@ -1027,7 +1033,7 @@ window.t = {
       "planWeb": "Versão web",
       "planWebSub": "Pagamento único ou subscrição anual",
       "priceWeb": "29.99",
-      "ctaWeb": "Usar online →",
+      "ctaWeb": "Abrir a calculadora web",
       "mobileNote": "Já tens a app móvel? Tens um <strong>preço especial</strong> na web (19,99 € ou 6,99 €/ano): ativa-o na app em Definições → «Ativar versão web».",
       "perYear": "/ano",
       "priceWebOr": "ou"
@@ -1122,6 +1128,7 @@ window.t = {
       "pricing": "Preus",
       "support": "Suport",
       "download": "Descarregar",
+      "webapp": "Calculadora web",
       "menu_aria": "Menú",
       "lang_aria": "Canviar idioma"
     },
@@ -1132,7 +1139,7 @@ window.t = {
       "appstore": "App Store",
       "googleplay": "Google Play",
       "available": "Disponible a",
-      "webapp": "Usar en línia →",
+      "webapp": "Obrir la calculadora web",
       "proof": "Més de 3.000 makers ja la fan servir"
     },
     "mockup": {
@@ -1213,7 +1220,7 @@ window.t = {
       "planWeb": "Versió web",
       "planWebSub": "Pagament únic o subscripció anual",
       "priceWeb": "29.99",
-      "ctaWeb": "Usar en línia →",
+      "ctaWeb": "Obrir la calculadora web",
       "mobileNote": "Ja tens l'app mòbil? Tens un <strong>preu especial</strong> al web (19,99 € o 6,99 €/any): activa'l des de l'app a Configuració → «Activar versió web».",
       "perYear": "/any",
       "priceWebOr": "o"
@@ -1308,6 +1315,7 @@ window.t = {
       "pricing": "Цены",
       "support": "Поддержка",
       "download": "Скачать",
+      "webapp": "Веб-калькулятор",
       "menu_aria": "Меню",
       "lang_aria": "Сменить язык"
     },
@@ -1318,7 +1326,7 @@ window.t = {
       "appstore": "App Store",
       "googleplay": "Google Play",
       "available": "Доступно в",
-      "webapp": "Открыть онлайн →",
+      "webapp": "Открыть веб-калькулятор",
       "proof": "Более 3000 мейкеров уже используют"
     },
     "mockup": {
@@ -1399,7 +1407,7 @@ window.t = {
       "planWeb": "Веб-версия",
       "planWebSub": "Разовый платёж или годовая подписка",
       "priceWeb": "29.99",
-      "ctaWeb": "Открыть онлайн →",
+      "ctaWeb": "Открыть веб-калькулятор",
       "mobileNote": "Уже есть мобильное приложение? Вам доступна <strong>специальная цена</strong> в вебе (19,99 € или 6,99 €/год): активируйте её в приложении в Настройках → «Активировать веб-версию».",
       "perYear": "/год",
       "priceWebOr": "или"
@@ -1494,6 +1502,7 @@ window.t = {
       "pricing": "Hinnat",
       "support": "Tuki",
       "download": "Lataa",
+      "webapp": "Verkkolaskuri",
       "menu_aria": "Valikko",
       "lang_aria": "Vaihda kieli"
     },
@@ -1504,7 +1513,7 @@ window.t = {
       "appstore": "App Store",
       "googleplay": "Google Play",
       "available": "Saatavilla",
-      "webapp": "Käytä verkossa →",
+      "webapp": "Avaa verkkolaskuri",
       "proof": "Yli 3 000 makeria käyttää sitä jo"
     },
     "mockup": {
@@ -1585,7 +1594,7 @@ window.t = {
       "planWeb": "Verkkoversio",
       "planWebSub": "Kertamaksu tai vuositilaus",
       "priceWeb": "29.99",
-      "ctaWeb": "Käytä verkossa →",
+      "ctaWeb": "Avaa verkkolaskuri",
       "mobileNote": "Onko sinulla jo mobiilisovellus? Saat <strong>erikoishinnan</strong> verkossa (19,99 € tai 6,99 €/vuosi): aktivoi se sovelluksessa kohdassa Asetukset → \"Aktivoi verkkoversio\".",
       "perYear": "/vuosi",
       "priceWebOr": "tai"
@@ -1680,6 +1689,7 @@ window.t = {
       "pricing": "Ceny",
       "support": "Podpora",
       "download": "Stáhnout",
+      "webapp": "Webová kalkulačka",
       "menu_aria": "Menu",
       "lang_aria": "Změnit jazyk"
     },
@@ -1690,7 +1700,7 @@ window.t = {
       "appstore": "App Store",
       "googleplay": "Google Play",
       "available": "K dispozici na",
-      "webapp": "Použít online →",
+      "webapp": "Otevřít webovou kalkulačku",
       "proof": "Už ji používá více než 3 000 makerů"
     },
     "mockup": {
@@ -1771,7 +1781,7 @@ window.t = {
       "planWeb": "Webová verze",
       "planWebSub": "Jednorázově nebo roční předplatné",
       "priceWeb": "29.99",
-      "ctaWeb": "Použít online →",
+      "ctaWeb": "Otevřít webovou kalkulačku",
       "mobileNote": "Už máš mobilní aplikaci? Máš <strong>speciální cenu</strong> na webu (19,99 € nebo 6,99 €/rok): aktivuj ji v aplikaci v Nastavení → „Aktivovat webovou verzi\".",
       "perYear": "/rok",
       "priceWebOr": "nebo"
@@ -1866,6 +1876,7 @@ window.t = {
       "pricing": "Prijzen",
       "support": "Support",
       "download": "Downloaden",
+      "webapp": "Webcalculator",
       "menu_aria": "Menu",
       "lang_aria": "Taal wijzigen"
     },
@@ -1876,7 +1887,7 @@ window.t = {
       "appstore": "App Store",
       "googleplay": "Google Play",
       "available": "Beschikbaar op",
-      "webapp": "Online gebruiken →",
+      "webapp": "Open de webcalculator",
       "proof": "Meer dan 3.000 makers gebruiken het al"
     },
     "mockup": {
@@ -1957,7 +1968,7 @@ window.t = {
       "planWeb": "Webversie",
       "planWebSub": "Eenmalig of jaarabonnement",
       "priceWeb": "29.99",
-      "ctaWeb": "Online gebruiken →",
+      "ctaWeb": "Open de webcalculator",
       "mobileNote": "Heb je de mobiele app al? Je krijgt een <strong>speciale prijs</strong> op het web (€19,99 of €6,99/jaar): activeer het in de app onder Instellingen → \"Webversie activeren\".",
       "perYear": "/jaar",
       "priceWebOr": "of"
@@ -2052,6 +2063,7 @@ window.t = {
       "pricing": "Cennik",
       "support": "Wsparcie",
       "download": "Pobierz",
+      "webapp": "Kalkulator online",
       "menu_aria": "Menu",
       "lang_aria": "Zmień język"
     },
@@ -2062,7 +2074,7 @@ window.t = {
       "appstore": "App Store",
       "googleplay": "Google Play",
       "available": "Dostępne w",
-      "webapp": "Korzystaj online →",
+      "webapp": "Otwórz kalkulator online",
       "proof": "Ponad 3000 makerów już z niej korzysta"
     },
     "mockup": {
@@ -2143,7 +2155,7 @@ window.t = {
       "planWeb": "Wersja webowa",
       "planWebSub": "Jednorazowo lub subskrypcja roczna",
       "priceWeb": "29.99",
-      "ctaWeb": "Korzystaj online →",
+      "ctaWeb": "Otwórz kalkulator online",
       "mobileNote": "Masz już aplikację mobilną? Masz <strong>specjalną cenę</strong> w wersji web (19,99 € lub 6,99 €/rok): aktywuj ją w aplikacji w Ustawieniach → „Aktywuj wersję web\".",
       "perYear": "/rok",
       "priceWebOr": "lub"

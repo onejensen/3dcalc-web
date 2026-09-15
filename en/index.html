@@ -158,7 +158,10 @@
           <span></span><span></span><span></span>
         </button>
         <select class="lang-select" aria-label="Cambiar idioma" data-i18n-aria="nav.lang_aria"></select>
-        <a href="/app/" class="btn-nav-outline" data-i18n="hero.webapp">Use online →</a>
+        <a href="/app/" class="btn-nav-outline btn-nav-calc">
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="16" y1="14" x2="16" y2="18"/><path d="M16 10h.01M12 10h.01M8 10h.01M12 14h.01M8 14h.01M12 18h.01M8 18h.01"/></svg>
+          <span data-i18n="nav.webapp">Web calculator</span>
+        </a>
         <a href="#download" class="btn-nav" data-i18n="nav.download">Download</a>
       </div>
     </nav>
@@ -182,9 +185,17 @@
 
           <p class="hero-subtitle reveal delay-2" data-i18n="hero.subtitle">Calculate the real cost of your prints in seconds. Manage materials, estimate wear, and generate professional quotes for your clients.</p>
 
-          <div class="hero-actions reveal delay-3">
+          <div class="hero-web reveal delay-3">
+            <a href="/app/" class="btn-web">
+              <svg class="btn-web-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="16" y1="14" x2="16" y2="18"/><path d="M16 10h.01M12 10h.01M8 10h.01M12 14h.01M8 14h.01M12 18h.01M8 18h.01"/></svg>
+              <span class="btn-web-title" data-i18n="hero.webapp">Open the web calculator</span>
+              <svg class="btn-web-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+
+          <div class="hero-actions reveal delay-4">
             <a href="https://apps.apple.com/es/app/3dcalc/id6752701677"
-               class="btn-store btn-store-primary"
+               class="btn-store btn-store-secondary"
                target="_blank" rel="noopener">
               <svg class="btn-store-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/></svg>
               <div>
@@ -204,14 +215,7 @@
             </a>
           </div>
 
-          <div class="hero-web reveal delay-3">
-            <a href="/app/" class="btn-web">
-              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-              <span data-i18n="hero.webapp">Use online →</span>
-            </a>
-          </div>
-
-          <div class="hero-proof reveal delay-4">
+          <div class="hero-proof reveal delay-5">
             <span class="hero-stars">★★★★★</span>
             <span data-i18n="hero.proof">Trusted by over 3,000 makers</span>
           </div>
@@ -504,7 +508,7 @@
               <li><span class="check">✓</span><span data-i18n="pricing.f6">Future updates included</span></li>
             </ul>
 
-            <a href="/app/" class="btn-primary" data-i18n="pricing.ctaWeb">Use online →</a>
+            <a href="/app/" class="btn-primary" data-i18n="pricing.ctaWeb">Open the web calculator</a>
           </div>
         </div>
 
@@ -541,10 +545,13 @@
           </a>
         </div>
 
-        <a href="/app/" class="btn-web reveal delay-3" style="margin-top:20px;">
-          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-          <span data-i18n="hero.webapp">Use online →</span>
-        </a>
+        <div class="download-web reveal delay-3">
+          <a href="/app/" class="btn-web">
+            <svg class="btn-web-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="16" y1="14" x2="16" y2="18"/><path d="M16 10h.01M12 10h.01M8 10h.01M12 14h.01M8 14h.01M12 18h.01M8 18h.01"/></svg>
+            <span class="btn-web-title" data-i18n="hero.webapp">Open the web calculator</span>
+            <svg class="btn-web-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
       </div>
     </section>
 
