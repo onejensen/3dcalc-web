@@ -943,6 +943,9 @@ footer {
 }
 
 @media (max-width: 480px) {
+  /* Long words (Datenschutzerklärung, Gebruiksvoorwaarden…) must not overflow on phones:
+     hyphenate per <html lang>, and break anyway if the browser has no dictionary. */
+  h1, h2, h3 { overflow-wrap: break-word; -webkit-hyphens: auto; hyphens: auto; }
   /* Top bar: the wordmark goes (the logo stays) so the Download button fits in every language. */
   nav { gap: 10px; }
   .logo-text { display: none; }
