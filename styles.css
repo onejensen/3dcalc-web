@@ -1135,6 +1135,8 @@ footer {
 }
 .nf-nest path.alt  { stroke: #fb923c; }
 .nf-nest path.dark { stroke: #ea580c; }
+.nf-nest path      { stroke-width: 2.4; }
+.nf-nest path.string { stroke: #fdba74; stroke-width: 1; }  /* stringing between digits */
 .nf-nest path {
   stroke-dasharray: 1;
   stroke-dashoffset: 1;
