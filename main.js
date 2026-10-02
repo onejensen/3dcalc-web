@@ -30,6 +30,11 @@ function isHomePath(p) {
   return /^\/(([a-z]{2})\/)?(index\.html)?$/.test(p);
 }
 
+// Clean URL: show '/' (or '/xx/') instead of '/index.html' in the address bar.
+if (/\/index\.html$/.test(location.pathname)) {
+  history.replaceState(null, '', location.pathname.replace(/index\.html$/, '') + location.search + location.hash);
+}
+
 function getLang() {
   // 1) Static per-language homepage (/en/, /de/, …): the path is the source of truth.
   const seg = location.pathname.split('/')[1];
