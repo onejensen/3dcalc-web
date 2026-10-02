@@ -1,5 +1,12 @@
 window.t = {
   "es": {
+    "notfound": {
+      "label": "Error 404",
+      "title": "Esta página se ha hecho espaguetis",
+      "text": "La pieza se despegó de la cama a mitad de impresión y lo que buscabas acabó convertido en un nido de filamento. Puede que la página se haya movido o que el enlace esté mal escrito.",
+      "home": "Volver al inicio",
+      "art_aria": "Impresora 3D imprimiendo espaguetis de filamento"
+    },
     "meta": { "title": "Calculadora de costes de impresión 3D | 3Dcalc+", "description": "Calcula costes reales de impresión 3D con filamento, resina, energía y mano de obra. Genera presupuestos PDF profesionales en iOS, Android, iPadOS y macOS." },
     "nav": {
       "features": "Características",
@@ -187,6 +194,13 @@ window.t = {
     }
   },
   "en": {
+    "notfound": {
+      "label": "Error 404",
+      "title": "This page turned into spaghetti",
+      "text": "The print came loose from the bed halfway through, and what you were looking for ended up as a bird's nest of filament. The page may have moved, or the link may be mistyped.",
+      "home": "Back to home",
+      "art_aria": "3D printer printing filament spaghetti"
+    },
     "meta": { "title": "3D Printing Cost Calculator | 3Dcalc+", "description": "Calculate the real cost of 3D prints — filament, resin, energy and labor — and generate professional PDF quotes on iOS, Android, iPadOS and macOS." },
     "nav": {
       "features": "Features",
@@ -374,6 +388,13 @@ window.t = {
     }
   },
   "fr": {
+    "notfound": {
+      "label": "Erreur 404",
+      "title": "Cette page est partie en spaghettis",
+      "text": "La pièce s'est décollée du plateau en pleine impression et ce que vous cherchiez a fini en nid de filament. La page a peut-être été déplacée, ou le lien contient une faute.",
+      "home": "Retour à l'accueil",
+      "art_aria": "Imprimante 3D qui imprime des spaghettis de filament"
+    },
     "meta": { "title": "Calculateur de coûts d'impression 3D | 3Dcalc+", "description": "Calculez le coût réel de vos impressions 3D (filament, résine, énergie, main-d'œuvre) et générez des devis PDF professionnels sur iOS, Android, iPadOS et macOS." },
     "nav": {
       "features": "Fonctionnalités",
@@ -561,6 +582,13 @@ window.t = {
     }
   },
   "de": {
+    "notfound": {
+      "label": "Fehler 404",
+      "title": "Diese Seite ist zu Spaghetti geworden",
+      "text": "Das Teil hat sich mitten im Druck vom Druckbett gelöst, und was du gesucht hast, ist als Filamentknäuel geendet. Vielleicht wurde die Seite verschoben oder der Link ist falsch geschrieben.",
+      "home": "Zur Startseite",
+      "art_aria": "3D-Drucker, der Filament-Spaghetti druckt"
+    },
     "meta": { "title": "3D-Druck-Kostenrechner | 3Dcalc+", "description": "Berechne die realen Kosten deiner 3D-Drucke — Filament, Harz, Energie und Arbeit — und erstelle professionelle PDF-Angebote auf iOS, Android, iPadOS und macOS." },
     "nav": {
       "features": "Funktionen",
@@ -748,6 +776,13 @@ window.t = {
     }
   },
   "it": {
+    "notfound": {
+      "label": "Errore 404",
+      "title": "Questa pagina è finita in spaghetti",
+      "text": "Il pezzo si è staccato dal piatto a metà stampa e quello che cercavi è diventato un groviglio di filamento. Forse la pagina è stata spostata o il link è scritto male.",
+      "home": "Torna alla home",
+      "art_aria": "Stampante 3D che stampa spaghetti di filamento"
+    },
     "meta": { "title": "Calcolatore dei costi di stampa 3D | 3Dcalc+", "description": "Calcola il costo reale delle tue stampe 3D (filamento, resina, energia e manodopera) e genera preventivi PDF professionali su iOS, Android, iPadOS e macOS." },
     "nav": {
       "features": "Caratteristiche",
@@ -935,6 +970,13 @@ window.t = {
     }
   },
   "pt": {
+    "notfound": {
+      "label": "Erro 404",
+      "title": "Esta página virou esparguete",
+      "text": "A peça descolou-se da mesa a meio da impressão e o que procuravas acabou transformado num ninho de filamento. Talvez a página tenha mudado de sítio ou o link esteja mal escrito.",
+      "home": "Voltar ao início",
+      "art_aria": "Impressora 3D a imprimir esparguete de filamento"
+    },
     "meta": { "title": "Calculadora de custos de impressão 3D | 3Dcalc+", "description": "Calcula os custos reais de impressão 3D com filamento, resina, energia e mão de obra. Gera orçamentos PDF profissionais em iOS, Android, iPadOS e macOS." },
     "nav": {
       "features": "Funcionalidades",
@@ -1122,6 +1164,13 @@ window.t = {
     }
   },
   "ca": {
+    "notfound": {
+      "label": "Error 404",
+      "title": "Aquesta pàgina s'ha fet espaguetis",
+      "text": "La peça s'ha desenganxat del llit a mitja impressió i el que buscaves ha acabat convertit en un niu de filament. Potser la pàgina s'ha mogut o l'enllaç està mal escrit.",
+      "home": "Tornar a l'inici",
+      "art_aria": "Impressora 3D imprimint espaguetis de filament"
+    },
     "meta": { "title": "Calculadora de costos d'impressió 3D | 3Dcalc+", "description": "Calcula els costos reals d'impressió 3D amb filament, resina, energia i mà d'obra. Genera pressupostos PDF professionals a iOS, Android, iPadOS i macOS." },
     "nav": {
       "features": "Característiques",
@@ -1309,6 +1358,13 @@ window.t = {
     }
   },
   "ru": {
+    "notfound": {
+      "label": "Ошибка 404",
+      "title": "Эта страница превратилась в спагетти",
+      "text": "Модель оторвалась от стола посреди печати, и то, что вы искали, превратилось в гнездо из филамента. Возможно, страница переехала или в ссылке опечатка.",
+      "home": "На главную",
+      "art_aria": "3D-принтер печатает спагетти из филамента"
+    },
     "meta": { "title": "Калькулятор стоимости 3D-печати | 3Dcalc+", "description": "Рассчитайте реальную стоимость 3D-печати — пластик, смола, электроэнергия и труд — и создавайте профессиональные PDF-сметы на iOS, Android, iPadOS и macOS." },
     "nav": {
       "features": "Возможности",
@@ -1496,6 +1552,13 @@ window.t = {
     }
   },
   "fi": {
+    "notfound": {
+      "label": "Virhe 404",
+      "title": "Tästä sivusta tuli spagettia",
+      "text": "Tuloste irtosi alustalta kesken tulostuksen, ja etsimäsi sivu päätyi filamenttisotkuksi. Sivu on ehkä siirretty, tai linkissä on kirjoitusvirhe.",
+      "home": "Takaisin etusivulle",
+      "art_aria": "3D-tulostin tulostaa filamenttispagettia"
+    },
     "meta": { "title": "3D-tulostuksen kustannuslaskuri | 3Dcalc+", "description": "Laske 3D-tulosteiden todelliset kustannukset — filamentti, resiini, energia ja työ — ja luo ammattimaisia PDF-tarjouksia iOS-, Android-, iPadOS- ja macOS-laitteilla." },
     "nav": {
       "features": "Ominaisuudet",
@@ -1683,6 +1746,13 @@ window.t = {
     }
   },
   "cs": {
+    "notfound": {
+      "label": "Chyba 404",
+      "title": "Z této stránky jsou špagety",
+      "text": "Výtisk se uprostřed tisku utrhl od podložky a to, co jste hledali, skončilo jako chuchvalec filamentu. Stránka se možná přesunula, nebo je v odkazu překlep.",
+      "home": "Zpět na úvod",
+      "art_aria": "3D tiskárna tiskne špagety z filamentu"
+    },
     "meta": { "title": "Kalkulačka nákladů na 3D tisk | 3Dcalc+", "description": "Spočítejte si reálné náklady na 3D tisk — filament, pryskyřice, energie a práce — a vytvářejte profesionální PDF nabídky na iOS, Android, iPadOS a macOS." },
     "nav": {
       "features": "Funkce",
@@ -1870,6 +1940,13 @@ window.t = {
     }
   },
   "nl": {
+    "notfound": {
+      "label": "Fout 404",
+      "title": "Deze pagina is spaghetti geworden",
+      "text": "De print liet halverwege los van het bed en wat je zocht, eindigde als een vogelnest van filament. Misschien is de pagina verplaatst of bevat de link een typfout.",
+      "home": "Terug naar home",
+      "art_aria": "3D-printer die filamentspaghetti print"
+    },
     "meta": { "title": "Kostencalculator voor 3D-printen | 3Dcalc+", "description": "Bereken de echte kosten van 3D-prints — filament, hars, energie en arbeid — en genereer professionele PDF-offertes op iOS, Android, iPadOS en macOS." },
     "nav": {
       "features": "Functies",
@@ -2057,6 +2134,13 @@ window.t = {
     }
   },
   "pl": {
+    "notfound": {
+      "label": "Błąd 404",
+      "title": "Ta strona zamieniła się w spaghetti",
+      "text": "Wydruk odkleił się od stołu w połowie drukowania i to, czego szukasz, skończyło jako kłąb filamentu. Możliwe, że strona została przeniesiona albo w linku jest literówka.",
+      "home": "Wróć na stronę główną",
+      "art_aria": "Drukarka 3D drukująca spaghetti z filamentu"
+    },
     "meta": { "title": "Kalkulator kosztów druku 3D | 3Dcalc+", "description": "Oblicz rzeczywiste koszty druku 3D — filament, żywica, energia i robocizna — i twórz profesjonalne wyceny PDF na iOS, Android, iPadOS i macOS." },
     "nav": {
       "features": "Funkcje",

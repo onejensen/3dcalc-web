@@ -1015,3 +1015,138 @@ footer {
   .btn-web, .btn-web-arrow { transition: none; }
   .btn-web:hover, .btn-web:hover .btn-web-arrow { transform: none; }
 }
+
+/* ============================================
+   404 — the printer that makes spaghetti
+   ============================================ */
+.notfound {
+  position: relative;
+  overflow: hidden;
+  padding: 56px 0 80px;
+}
+.notfound-glow {
+  position: absolute;
+  top: 40%; left: 30%;
+  transform: translate(-50%, -50%);
+  width: 560px; height: 420px;
+  background: radial-gradient(ellipse, rgba(249, 115, 22, 0.10) 0%, transparent 70%);
+  pointer-events: none;
+}
+.notfound-inner {
+  position: relative;
+  display: grid;
+  gap: 32px;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+.nf-printer { width: 100%; max-width: 380px; height: auto; }
+.notfound-copy h1 {
+  font-size: clamp(32px, 5vw, 52px);
+  font-weight: 900;
+  letter-spacing: -1.5px;
+  line-height: 1.08;
+  margin-bottom: 16px;
+}
+.notfound-text {
+  color: var(--text-secondary);
+  font-size: 17px;
+  line-height: 1.7;
+  max-width: 520px;
+  margin: 0 auto 32px;
+}
+.notfound-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+}
+.nf-btn-home {
+  display: inline-flex;
+  align-items: center;
+  padding: 14px 22px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-primary);
+  font-weight: 700;
+  font-size: 15px;
+  text-decoration: none;
+  transition: background 0.2s, border-color 0.2s;
+}
+.nf-btn-home:hover { background: rgba(255, 255, 255, 0.1); border-color: rgba(255, 255, 255, 0.24); }
+
+@media (min-width: 860px) {
+  .notfound { padding: 88px 0 112px; }
+  .notfound-inner {
+    grid-template-columns: 1fr 1fr;
+    gap: 56px;
+    text-align: left;
+    justify-items: start;
+  }
+  .nf-printer { max-width: 440px; justify-self: center; }
+  .notfound-text { margin-left: 0; }
+  .notfound-actions { justify-content: flex-start; }
+}
+
+/* Illustration parts */
+.nf-frame     { fill: #1b1b1b; stroke: rgba(255, 255, 255, 0.10); stroke-width: 1.5; }
+.nf-rod       { fill: #2a2a2a; }
+.nf-bed       { fill: #2b2b2b; stroke: rgba(255, 255, 255, 0.12); stroke-width: 1; }
+.nf-bed-leg   { fill: #161616; }
+.nf-stub      { fill: #c2410c; }
+.nf-head      { fill: #262626; stroke: rgba(255, 255, 255, 0.14); stroke-width: 1.5; }
+.nf-fan       { fill: #141414; stroke: rgba(255, 255, 255, 0.12); stroke-width: 1; }
+.nf-fan-blades line { stroke: #4b5563; stroke-width: 2.5; stroke-linecap: round; }
+.nf-heater    { fill: #3a3a3a; }
+.nf-nozzle    { fill: #d4a017; }
+.nf-screen    { fill: #0a0a0a; stroke: rgba(249, 115, 22, 0.35); stroke-width: 1; }
+.nf-screen-text {
+  fill: var(--accent);
+  font: 800 9px ui-monospace, SFMono-Regular, Menlo, monospace;
+  letter-spacing: 1px;
+  text-anchor: middle;
+  animation: nf-blink 1.2s steps(2, start) infinite;
+}
+.nf-spool-fil { fill: none; stroke: var(--accent); stroke-width: 8; opacity: 0.9; }
+.nf-hub       { fill: #0d0d0d; stroke: rgba(255, 255, 255, 0.2); stroke-width: 1; }
+.nf-spoke     { stroke: #0d0d0d; stroke-width: 3; }
+
+.nf-nest path, .nf-strand {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.nf-nest path.alt  { stroke: #fb923c; }
+.nf-nest path.dark { stroke: #ea580c; }
+.nf-nest path {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  opacity: 0;
+  animation: nf-draw 9s var(--d, 0s) ease-in-out infinite;
+}
+
+/* Animation */
+.nf-carriage   { animation: nf-travel 2.4s ease-in-out infinite alternate; }
+.nf-strand     { transform-origin: 200px 194px; animation: nf-sway 1.2s ease-in-out infinite alternate; }
+.nf-fan-blades { transform-origin: 200px 153px; animation: nf-spin 0.5s linear infinite; }
+.nf-spool      { transform-origin: 200px 26px;  animation: nf-spin 6s linear infinite; }
+
+@keyframes nf-travel { from { transform: translateX(-72px); } to { transform: translateX(72px); } }
+@keyframes nf-sway   { from { transform: rotate(-9deg); } to { transform: rotate(9deg); } }
+@keyframes nf-spin   { to { transform: rotate(360deg); } }
+@keyframes nf-blink  { to { visibility: hidden; } }
+@keyframes nf-draw {
+  0%       { stroke-dashoffset: 1; opacity: 0; }   /* hidden: a round cap would leave a dot */
+  2%       { stroke-dashoffset: .98; opacity: 1; }
+  30%, 85% { stroke-dashoffset: 0; opacity: 1; }
+  100%     { stroke-dashoffset: 0; opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nf-carriage, .nf-strand, .nf-fan-blades, .nf-spool, .nf-screen-text { animation: none; }
+  .nf-nest path { animation: none; stroke-dashoffset: 0; }
+}
