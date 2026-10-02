@@ -943,10 +943,23 @@ footer {
 }
 
 @media (max-width: 480px) {
+  /* Top bar: the wordmark goes (the logo stays) so the Download button fits in every language. */
+  nav { gap: 10px; }
+  .logo-text { display: none; }
+  .nav-right { gap: 8px; }
+  .lang-select { padding: 5px 24px 5px 11px; background-position: right 9px center; }
+  .btn-nav { padding: 8px 13px; }
   .hero { padding: 60px 0 50px; }
   .hero-actions { flex-direction: column; }
   .btn-store { justify-content: center; }
   .store-buttons { flex-direction: column; align-items: center; }
+}
+
+@media (max-width: 360px) {
+  nav { padding: 12px; gap: 8px; }
+  .nav-right { gap: 6px; }
+  .lang-select { padding: 5px 20px 5px 9px; background-position: right 7px center; font-size: 11px; letter-spacing: 0; }
+  .btn-nav { padding: 7px 10px; font-size: 12px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
