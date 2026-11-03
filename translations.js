@@ -7,7 +7,7 @@ window.t = {
       "home": "Volver al inicio",
       "art_aria": "Impresora 3D imprimiendo espaguetis de filamento"
     },
-    "meta": { "title": "Calculadora de costes de impresión 3D | 3Dcalc+", "description": "Calcula costes reales de impresión 3D con filamento, resina, energía y mano de obra. Genera presupuestos PDF profesionales en iOS, Android, iPadOS y macOS." },
+    "meta": { "title": "Calculadora de costes de impresión 3D | 3Dcalc+", "description": "Calculadora de impresión 3D online gratis y app para iOS y Android: calcula filamento, resina, luz y mano de obra y genera presupuestos PDF." },
     "nav": {
       "features": "Características",
       "pricing": "Precios",
@@ -18,7 +18,7 @@ window.t = {
       "lang_aria": "Cambiar idioma"
     },
     "hero": {
-      "badge": "Versión 2.0 disponible",
+      "badge": "iOS · Android · Web",
       "title": "Impresión 3D,<br>con <em>números claros.</em>",
       "subtitle": "Calcula el coste real de tus impresiones en segundos. Gestiona materiales, estima el desgaste y genera presupuestos profesionales para tus clientes.",
       "appstore": "App Store",
@@ -212,7 +212,7 @@ window.t = {
       "lang_aria": "Switch language"
     },
     "hero": {
-      "badge": "Version 2.0 available",
+      "badge": "iOS · Android · Web",
       "title": "3D Printing,<br>with <em>clear numbers.</em>",
       "subtitle": "Calculate the real cost of your prints in seconds. Manage materials, estimate wear, and generate professional quotes for your clients.",
       "appstore": "App Store",
@@ -406,7 +406,7 @@ window.t = {
       "lang_aria": "Changer de langue"
     },
     "hero": {
-      "badge": "Version 2.0 disponible",
+      "badge": "iOS · Android · Web",
       "title": "L'impression 3D,<br>avec des <em>chiffres clairs.</em>",
       "subtitle": "Calculez le coût réel de vos impressions en quelques secondes. Gérez vos matériaux, estimez l'usure et générez des devis professionnels pour vos clients.",
       "appstore": "App Store",
@@ -600,7 +600,7 @@ window.t = {
       "lang_aria": "Sprache wechseln"
     },
     "hero": {
-      "badge": "Version 2.0 verfügbar",
+      "badge": "iOS · Android · Web",
       "title": "3D-Druck,<br>mit <em>klaren Zahlen.</em>",
       "subtitle": "Berechne die echten Kosten deiner Drucke in Sekunden. Verwalte Materialien, schätze den Verschleiß ab und erstelle professionelle Angebote für deine Kunden.",
       "appstore": "App Store",
@@ -794,7 +794,7 @@ window.t = {
       "lang_aria": "Cambia lingua"
     },
     "hero": {
-      "badge": "Versione 2.0 disponibile",
+      "badge": "iOS · Android · Web",
       "title": "Stampa 3D,<br>con <em>numeri chiari.</em>",
       "subtitle": "Calcola il costo reale delle tue stampe in pochi secondi. Gestisci i materiali, stima l'usura e genera preventivi professionali per i tuoi clienti.",
       "appstore": "App Store",
@@ -988,7 +988,7 @@ window.t = {
       "lang_aria": "Mudar de idioma"
     },
     "hero": {
-      "badge": "Versão 2.0 disponível",
+      "badge": "iOS · Android · Web",
       "title": "Impressão 3D,<br>com <em>números claros.</em>",
       "subtitle": "Calcula o custo real das tuas impressões em segundos. Gere materiais, estima o desgaste e cria orçamentos profissionais para os teus clientes.",
       "appstore": "App Store",
@@ -1182,7 +1182,7 @@ window.t = {
       "lang_aria": "Canviar idioma"
     },
     "hero": {
-      "badge": "Versió 2.0 disponible",
+      "badge": "iOS · Android · Web",
       "title": "Impressió 3D,<br>amb <em>números clars.</em>",
       "subtitle": "Calcula el cost real de les teves impressions en segons. Gestiona materials, estima el desgast i genera pressupostos professionals per als teus clients.",
       "appstore": "App Store",
@@ -1376,7 +1376,7 @@ window.t = {
       "lang_aria": "Сменить язык"
     },
     "hero": {
-      "badge": "Версия 2.0 уже доступна",
+      "badge": "iOS · Android · Web",
       "title": "3D-печать,<br>с <em>понятными цифрами.</em>",
       "subtitle": "Рассчитайте реальную стоимость печати за секунды. Управляйте материалами, оценивайте износ и создавайте профессиональные сметы для клиентов.",
       "appstore": "App Store",
@@ -1570,7 +1570,7 @@ window.t = {
       "lang_aria": "Vaihda kieli"
     },
     "hero": {
-      "badge": "Versio 2.0 saatavilla",
+      "badge": "iOS · Android · Web",
       "title": "3D-tulostus,<br>jossa <em>luvut ovat selvät.</em>",
       "subtitle": "Laske tulosteidesi todelliset kustannukset sekunneissa. Hallitse materiaaleja, arvioi kuluminen ja luo ammattimaisia tarjouksia asiakkaillesi.",
       "appstore": "App Store",
@@ -1764,7 +1764,7 @@ window.t = {
       "lang_aria": "Změnit jazyk"
     },
     "hero": {
-      "badge": "Verze 2.0 je k dispozici",
+      "badge": "iOS · Android · Web",
       "title": "3D tisk,<br>s <em>jasnými čísly.</em>",
       "subtitle": "Spočítejte si skutečné náklady na své tisky během několika sekund. Spravujte materiály, odhadněte opotřebení a vytvářejte profesionální cenové nabídky pro své zákazníky.",
       "appstore": "App Store",
@@ -1958,7 +1958,7 @@ window.t = {
       "lang_aria": "Taal wijzigen"
     },
     "hero": {
-      "badge": "Versie 2.0 beschikbaar",
+      "badge": "iOS · Android · Web",
       "title": "3D-printen,<br>met <em>heldere cijfers.</em>",
       "subtitle": "Bereken de echte kosten van je prints in seconden. Beheer materialen, schat de slijtage in en genereer professionele offertes voor je klanten.",
       "appstore": "App Store",
@@ -2152,7 +2152,7 @@ window.t = {
       "lang_aria": "Zmień język"
     },
     "hero": {
-      "badge": "Wersja 2.0 już dostępna",
+      "badge": "iOS · Android · Web",
       "title": "Druk 3D,<br>z <em>jasnymi liczbami.</em>",
       "subtitle": "Oblicz rzeczywisty koszt swoich wydruków w kilka sekund. Zarządzaj materiałami, szacuj zużycie i generuj profesjonalne wyceny dla swoich klientów.",
       "appstore": "App Store",
