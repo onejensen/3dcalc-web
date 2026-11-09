@@ -63,7 +63,7 @@
           {
             "@type": "Question",
             "name": "¿Cómo se calcula el coste de una impresión 3D?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Se suman cinco componentes: material (gramos de filamento o mililitros de resina por su precio), energía (vatios de la impresora por las horas de impresión y el precio del kWh), desgaste de la máquina (precio de la impresora dividido por su vida útil en horas, por las horas de impresión), mano de obra (tiempo de preparación y postprocesado por tu tarifa horaria) y, sobre ese coste, el margen de beneficio para fijar el precio de venta." }
+            "acceptedAnswer": { "@type": "Answer", "text": "Se suman cinco componentes: material (gramos de filamento o mililitros de resina por su precio), energía (vatios de la impresora por las horas de impresión y el precio del kWh), desgaste de la máquina (su amortización por horas de uso o, en 3Dcalc+, un porcentaje sobre material y energía según tu nivel de uso), mano de obra (tiempo de preparación y postprocesado por tu tarifa horaria) y, sobre ese coste, el margen de beneficio para fijar el precio de venta." }
           },
           {
             "@type": "Question",
@@ -144,6 +144,7 @@
 
           <h3>3. Desgaste de la máquina (amortización)</h3>
           <p>Tu impresora no es eterna. Divide su precio entre su vida útil estimada en horas para obtener un coste por hora, y multiplícalo por las horas de impresión. Una impresora de 300 € con 2.000 h de vida útil cuesta 0,15 €/h; en una impresión de 5 h, <strong>0,75 €</strong> de desgaste. Aquí entran también boquillas, correas y mantenimiento.</p>
+          <p>3Dcalc+ simplifica este paso: no te pide el precio de la impresora, sino que aplica un porcentaje sobre el coste de material y energía según tu nivel de uso (Hobby 5 %, Semi-pro 10 %, Profesional 15 %, Granja 20 %). Por eso su resultado no coincide exactamente con el cálculo por horas de este ejemplo.</p>
 
           <h3>4. Mano de obra</h3>
           <p>El tiempo que dedicas a preparar el archivo, lanzar la impresión, retirar soportes y postprocesar tiene valor. Multiplica ese tiempo por tu tarifa horaria. 15 minutos a 12 €/h son <strong>3,00 €</strong>. Es el componente que más se olvida y el que más encarece las piezas pequeñas.</p>

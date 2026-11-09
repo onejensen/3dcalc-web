@@ -8,7 +8,7 @@
 
 - **Material**: filamento (FDM, €/kg) o resina (€/L), según el peso o volumen usado.
 - **Energía**: consumo eléctrico de la impresora (vatios × horas × precio del kWh).
-- **Desgaste de la máquina**: amortización por horas de uso (precio de la impresora / vida útil).
+- **Desgaste de la máquina**: porcentaje sobre el coste de material y energía según el nivel de uso (Hobby 5 %, Semi-pro 10 %, Profesional 15 %, Granja 20 %); no usa el precio de la impresora.
 - **Mano de obra**: tiempo de preparación y postprocesado por una tarifa horaria.
 - **Margen de beneficio**: multiplicador o porcentaje configurable para fijar el precio de venta.
 - **Impuestos** opcionales (IVA) y costes extra por línea.
