@@ -25,7 +25,7 @@ window.t = {
       "googleplay": "Google Play",
       "available": "Disponible en",
       "webapp": "Abrir la calculadora web",
-      "proof": "Más de 3.000 makers ya la usan"
+      "proof": "4,8/5 en Google Play (40 valoraciones)"
     },
     "mockup": {
       "total": "Coste Total",
@@ -38,7 +38,7 @@ window.t = {
       "pdf": "Exportar Presupuesto PDF"
     },
     "stats": {
-      "users": "Makers activos",
+      "languages": "Idiomas de la app",
       "platforms": "iOS · Android · iPadOS · macOS",
       "platforms_label": "Plataformas",
       "price": "Pago único, para siempre"
@@ -74,17 +74,12 @@ window.t = {
       "s3_desc": "Añade tu margen de beneficio y exporta el presupuesto PDF."
     },
     "testimonials": {
-      "label": "— Opiniones reales",
-      "title": "Lo que dicen los makers",
-      "t1_text": "\"La mejor app para calcular costes. Antes perdía dinero en piezas grandes, ahora sé exactamente cuánto cobrar. El presupuesto en PDF es un game-changer para mis clientes.\"",
-      "t1_name": "Carlos M.",
-      "t1_role": "Granja de Impresión 3D",
-      "t2_text": "\"La función de cálculos multicolor es increíble. Desglosa cada color para la Bambu Lab AMS perfectamente. La sincronización en la nube funciona de maravilla entre iPad y iPhone.\"",
-      "t2_name": "Laura G.",
-      "t2_role": "Diseñadora 3D",
-      "t3_text": "\"Sencilla, directa y sin complicaciones. Tiene todo lo necesario para calcular resina y filamento. Mucho mejor que las hojas de Excel que usaba antes.\"",
-      "t3_name": "David R.",
-      "t3_role": "Maker Hobbyista"
+      "label": "— Valoraciones en las tiendas",
+      "title": "Valoración media de los usuarios",
+      "t1_score": "4,9 / 5",
+      "t1_count": "31 valoraciones",
+      "t2_score": "4,8 / 5",
+      "t2_count": "40 valoraciones"
     },
     "pricing": {
       "label": "— Sin sorpresas",
@@ -219,7 +214,7 @@ window.t = {
       "googleplay": "Google Play",
       "available": "Available on",
       "webapp": "Open the web calculator",
-      "proof": "Trusted by over 3,000 makers"
+      "proof": "4.8/5 on Google Play (40 ratings)"
     },
     "mockup": {
       "total": "Total Cost",
@@ -232,7 +227,7 @@ window.t = {
       "pdf": "Export Quote PDF"
     },
     "stats": {
-      "users": "Active makers",
+      "languages": "App languages",
       "platforms": "iOS · Android · iPadOS · macOS",
       "platforms_label": "Platforms",
       "price": "One-time payment, forever"
@@ -268,17 +263,12 @@ window.t = {
       "s3_desc": "Add your profit margin and export the PDF quote."
     },
     "testimonials": {
-      "label": "— Real reviews",
-      "title": "What makers are saying",
-      "t1_text": "\"The best app for calculating costs. I used to lose money on big prints, now I know exactly what to charge. The PDF quote is a game-changer for my clients.\"",
-      "t1_name": "Carlos M.",
-      "t1_role": "3D Print Farm",
-      "t2_text": "\"The multicolor calculation feature is incredible. It breaks down each color for the Bambu Lab AMS perfectly. Cloud sync works flawlessly between iPad and iPhone.\"",
-      "t2_name": "Laura G.",
-      "t2_role": "3D Designer",
-      "t3_text": "\"Simple, straightforward, no hassle. It has everything needed to calculate resin and filament. Way better than the spreadsheets I used before.\"",
-      "t3_name": "David R.",
-      "t3_role": "Hobbyist Maker"
+      "label": "— Ratings in the stores",
+      "title": "Average user rating",
+      "t1_score": "4.9 / 5",
+      "t1_count": "31 ratings",
+      "t2_score": "4.8 / 5",
+      "t2_count": "40 ratings"
     },
     "pricing": {
       "label": "— No surprises",
@@ -413,7 +403,7 @@ window.t = {
       "googleplay": "Google Play",
       "available": "Disponible sur",
       "webapp": "Ouvrir le calculateur web",
-      "proof": "Plus de 3 000 makers l'utilisent déjà"
+      "proof": "4,8/5 sur Google Play (40 évaluations)"
     },
     "mockup": {
       "total": "Coût Total",
@@ -426,7 +416,7 @@ window.t = {
       "pdf": "Exporter le Devis PDF"
     },
     "stats": {
-      "users": "Makers actifs",
+      "languages": "Langues de l'app",
       "platforms": "iOS · Android · iPadOS · macOS",
       "platforms_label": "Plateformes",
       "price": "Paiement unique, pour toujours"
@@ -462,17 +452,12 @@ window.t = {
       "s3_desc": "Ajoutez votre marge bénéficiaire et exportez le devis PDF."
     },
     "testimonials": {
-      "label": "— Avis authentiques",
-      "title": "Ce que disent les makers",
-      "t1_text": "\"La meilleure app pour calculer les coûts. Avant, je perdais de l'argent sur les grosses pièces ; maintenant, je sais exactement combien facturer. Le devis en PDF change tout pour mes clients.\"",
-      "t1_name": "Carlos M.",
-      "t1_role": "Ferme d'Impression 3D",
-      "t2_text": "\"La fonction de calcul multicolore est incroyable. Elle ventile chaque couleur pour la Bambu Lab AMS à la perfection. La synchronisation dans le cloud fonctionne à merveille entre l'iPad et l'iPhone.\"",
-      "t2_name": "Laura G.",
-      "t2_role": "Designeuse 3D",
-      "t3_text": "\"Simple, directe et sans complications. Elle a tout ce qu'il faut pour calculer la résine et le filament. Bien mieux que les feuilles Excel que j'utilisais avant.\"",
-      "t3_name": "David R.",
-      "t3_role": "Maker Amateur"
+      "label": "— Notes sur les stores",
+      "title": "Note moyenne des utilisateurs",
+      "t1_score": "4,9 / 5",
+      "t1_count": "31 évaluations",
+      "t2_score": "4,8 / 5",
+      "t2_count": "40 évaluations"
     },
     "pricing": {
       "label": "— Sans surprises",
@@ -607,7 +592,7 @@ window.t = {
       "googleplay": "Google Play",
       "available": "Verfügbar im",
       "webapp": "Web-Rechner öffnen",
-      "proof": "Über 3.000 Maker nutzen sie bereits"
+      "proof": "4,8/5 bei Google Play (40 Bewertungen)"
     },
     "mockup": {
       "total": "Gesamtkosten",
@@ -620,7 +605,7 @@ window.t = {
       "pdf": "Angebot als PDF exportieren"
     },
     "stats": {
-      "users": "Aktive Maker",
+      "languages": "App-Sprachen",
       "platforms": "iOS · Android · iPadOS · macOS",
       "platforms_label": "Plattformen",
       "price": "Einmalzahlung, für immer"
@@ -656,17 +641,12 @@ window.t = {
       "s3_desc": "Füge deine Gewinnmarge hinzu und exportiere das Angebot als PDF."
     },
     "testimonials": {
-      "label": "— Echte Meinungen",
-      "title": "Was die Maker sagen",
-      "t1_text": "\"Die beste App zur Kostenberechnung. Früher habe ich bei großen Teilen Geld verloren, jetzt weiß ich genau, wie viel ich verlangen muss. Das PDF-Angebot ist ein Game-Changer für meine Kunden.\"",
-      "t1_name": "Carlos M.",
-      "t1_role": "3D-Druckfarm",
-      "t2_text": "\"Die Mehrfarben-Berechnung ist unglaublich. Sie schlüsselt jede Farbe für die Bambu Lab AMS perfekt auf. Die Cloud-Synchronisation funktioniert wunderbar zwischen iPad und iPhone.\"",
-      "t2_name": "Laura G.",
-      "t2_role": "3D-Designerin",
-      "t3_text": "\"Einfach, direkt und unkompliziert. Sie hat alles, was man zur Berechnung von Harz und Filament braucht. Viel besser als die Excel-Tabellen, die ich vorher genutzt habe.\"",
-      "t3_name": "David R.",
-      "t3_role": "Hobby-Maker"
+      "label": "— Bewertungen in den Stores",
+      "title": "Durchschnittliche Nutzerbewertung",
+      "t1_score": "4,9 / 5",
+      "t1_count": "31 Bewertungen",
+      "t2_score": "4,8 / 5",
+      "t2_count": "40 Bewertungen"
     },
     "pricing": {
       "label": "— Keine Überraschungen",
@@ -801,7 +781,7 @@ window.t = {
       "googleplay": "Google Play",
       "available": "Disponibile su",
       "webapp": "Apri il calcolatore web",
-      "proof": "Oltre 3.000 maker la usano già"
+      "proof": "4,8/5 su Google Play (40 valutazioni)"
     },
     "mockup": {
       "total": "Costo Totale",
@@ -814,7 +794,7 @@ window.t = {
       "pdf": "Esporta Preventivo PDF"
     },
     "stats": {
-      "users": "Maker attivi",
+      "languages": "Lingue dell'app",
       "platforms": "iOS · Android · iPadOS · macOS",
       "platforms_label": "Piattaforme",
       "price": "Pagamento unico, per sempre"
@@ -850,17 +830,12 @@ window.t = {
       "s3_desc": "Aggiungi il tuo margine di profitto ed esporta il preventivo PDF."
     },
     "testimonials": {
-      "label": "— Opinioni reali",
-      "title": "Cosa dicono i maker",
-      "t1_text": "\"La migliore app per calcolare i costi. Prima perdevo soldi sui pezzi grandi, ora so esattamente quanto far pagare. Il preventivo in PDF è una svolta per i miei clienti.\"",
-      "t1_name": "Carlos M.",
-      "t1_role": "Print Farm 3D",
-      "t2_text": "\"La funzione di calcolo multicolore è incredibile. Dettaglia ogni colore per la Bambu Lab AMS alla perfezione. La sincronizzazione nel cloud funziona a meraviglia tra iPad e iPhone.\"",
-      "t2_name": "Laura G.",
-      "t2_role": "Designer 3D",
-      "t3_text": "\"Semplice, diretta e senza complicazioni. Ha tutto il necessario per calcolare resina e filamento. Molto meglio dei fogli Excel che usavo prima.\"",
-      "t3_name": "David R.",
-      "t3_role": "Maker Hobbista"
+      "label": "— Valutazioni negli store",
+      "title": "Valutazione media degli utenti",
+      "t1_score": "4,9 / 5",
+      "t1_count": "31 valutazioni",
+      "t2_score": "4,8 / 5",
+      "t2_count": "40 valutazioni"
     },
     "pricing": {
       "label": "— Senza sorprese",
@@ -995,7 +970,7 @@ window.t = {
       "googleplay": "Google Play",
       "available": "Disponível em",
       "webapp": "Abrir a calculadora web",
-      "proof": "Mais de 3.000 makers já a utilizam"
+      "proof": "4,8/5 no Google Play (40 avaliações)"
     },
     "mockup": {
       "total": "Custo Total",
@@ -1008,7 +983,7 @@ window.t = {
       "pdf": "Exportar Orçamento PDF"
     },
     "stats": {
-      "users": "Makers ativos",
+      "languages": "Idiomas do app",
       "platforms": "iOS · Android · iPadOS · macOS",
       "platforms_label": "Plataformas",
       "price": "Pagamento único, para sempre"
@@ -1044,17 +1019,12 @@ window.t = {
       "s3_desc": "Adiciona a tua margem de lucro e exporta o orçamento PDF."
     },
     "testimonials": {
-      "label": "— Opiniões reais",
-      "title": "O que dizem os makers",
-      "t1_text": "\"A melhor app para calcular custos. Antes perdia dinheiro em peças grandes, agora sei exatamente quanto cobrar. O orçamento em PDF é uma reviravolta para os meus clientes.\"",
-      "t1_name": "Carlos M.",
-      "t1_role": "Quinta de Impressão 3D",
-      "t2_text": "\"A função de cálculos multicolor é incrível. Discrimina cada cor para a Bambu Lab AMS na perfeição. A sincronização na nuvem funciona às mil maravilhas entre iPad e iPhone.\"",
-      "t2_name": "Laura G.",
-      "t2_role": "Designer 3D",
-      "t3_text": "\"Simples, direta e sem complicações. Tem tudo o que é preciso para calcular resina e filamento. Muito melhor do que as folhas de Excel que usava antes.\"",
-      "t3_name": "David R.",
-      "t3_role": "Maker Amador"
+      "label": "— Avaliações nas lojas",
+      "title": "Avaliação média dos utilizadores",
+      "t1_score": "4,9 / 5",
+      "t1_count": "31 avaliações",
+      "t2_score": "4,8 / 5",
+      "t2_count": "40 avaliações"
     },
     "pricing": {
       "label": "— Sem surpresas",
@@ -1189,7 +1159,7 @@ window.t = {
       "googleplay": "Google Play",
       "available": "Disponible a",
       "webapp": "Obrir la calculadora web",
-      "proof": "Més de 3.000 makers ja la fan servir"
+      "proof": "4,8/5 a Google Play (40 valoracions)"
     },
     "mockup": {
       "total": "Cost Total",
@@ -1202,7 +1172,7 @@ window.t = {
       "pdf": "Exportar Pressupost PDF"
     },
     "stats": {
-      "users": "Makers actius",
+      "languages": "Idiomes de l'app",
       "platforms": "iOS · Android · iPadOS · macOS",
       "platforms_label": "Plataformes",
       "price": "Pagament únic, per sempre"
@@ -1238,17 +1208,12 @@ window.t = {
       "s3_desc": "Afegeix el teu marge de benefici i exporta el pressupost PDF."
     },
     "testimonials": {
-      "label": "— Opinions reals",
-      "title": "El que diuen els makers",
-      "t1_text": "\"La millor app per calcular costos. Abans perdia diners en peces grans, ara sé exactament quant cobrar. El pressupost en PDF és un game-changer per als meus clients.\"",
-      "t1_name": "Carlos M.",
-      "t1_role": "Granja d'Impressió 3D",
-      "t2_text": "\"La funció de càlculs multicolor és increïble. Desglossa cada color per a la Bambu Lab AMS perfectament. La sincronització al núvol funciona de meravella entre iPad i iPhone.\"",
-      "t2_name": "Laura G.",
-      "t2_role": "Dissenyadora 3D",
-      "t3_text": "\"Senzilla, directa i sense complicacions. Té tot el necessari per calcular resina i filament. Molt millor que els fulls d'Excel que feia servir abans.\"",
-      "t3_name": "David R.",
-      "t3_role": "Maker Hobbyista"
+      "label": "— Valoracions a les botigues",
+      "title": "Valoració mitjana dels usuaris",
+      "t1_score": "4,9 / 5",
+      "t1_count": "31 valoracions",
+      "t2_score": "4,8 / 5",
+      "t2_count": "40 valoracions"
     },
     "pricing": {
       "label": "— Sense sorpreses",
@@ -1383,7 +1348,7 @@ window.t = {
       "googleplay": "Google Play",
       "available": "Доступно в",
       "webapp": "Открыть веб-калькулятор",
-      "proof": "Более 3000 мейкеров уже используют"
+      "proof": "4,8/5 в Google Play (40 оценок)"
     },
     "mockup": {
       "total": "Итоговая стоимость",
@@ -1396,7 +1361,7 @@ window.t = {
       "pdf": "Экспорт сметы в PDF"
     },
     "stats": {
-      "users": "Активных мейкеров",
+      "languages": "Языков приложения",
       "platforms": "iOS · Android · iPadOS · macOS",
       "platforms_label": "Платформы",
       "price": "Разовая оплата, навсегда"
@@ -1432,17 +1397,12 @@ window.t = {
       "s3_desc": "Добавьте свою наценку и экспортируйте смету в PDF."
     },
     "testimonials": {
-      "label": "— Реальные отзывы",
-      "title": "Что говорят мейкеры",
-      "t1_text": "\"Лучшее приложение для расчёта затрат. Раньше я терял деньги на крупных деталях, теперь точно знаю, сколько брать. Смета в PDF — настоящий прорыв для моих клиентов.\"",
-      "t1_name": "Carlos M.",
-      "t1_role": "Ферма 3D-печати",
-      "t2_text": "\"Функция многоцветных расчётов просто потрясающая. Она идеально разбивает каждый цвет для Bambu Lab AMS. Синхронизация в облаке между iPad и iPhone работает великолепно.\"",
-      "t2_name": "Laura G.",
-      "t2_role": "3D-дизайнер",
-      "t3_text": "\"Простое, понятное и без лишних сложностей. В нём есть всё необходимое для расчёта смолы и филамента. Намного лучше, чем таблицы Excel, которыми я пользовался раньше.\"",
-      "t3_name": "David R.",
-      "t3_role": "Мейкер-любитель"
+      "label": "— Оценки в магазинах",
+      "title": "Средняя оценка пользователей",
+      "t1_score": "4,9 / 5",
+      "t1_count": "31 оценок",
+      "t2_score": "4,8 / 5",
+      "t2_count": "40 оценок"
     },
     "pricing": {
       "label": "— Без сюрпризов",
@@ -1577,7 +1537,7 @@ window.t = {
       "googleplay": "Google Play",
       "available": "Saatavilla",
       "webapp": "Avaa verkkolaskuri",
-      "proof": "Yli 3 000 makeria käyttää sitä jo"
+      "proof": "4,8/5 Google Playssa (40 arvostelua)"
     },
     "mockup": {
       "total": "Kokonaiskustannus",
@@ -1590,7 +1550,7 @@ window.t = {
       "pdf": "Vie tarjous PDF:nä"
     },
     "stats": {
-      "users": "Aktiivisia makereita",
+      "languages": "Sovelluksen kielet",
       "platforms": "iOS · Android · iPadOS · macOS",
       "platforms_label": "Alustat",
       "price": "Kertamaksu, ikuisesti"
@@ -1626,17 +1586,12 @@ window.t = {
       "s3_desc": "Lisää voittomarginaalisi ja vie tarjous PDF:nä."
     },
     "testimonials": {
-      "label": "— Aitoja arvioita",
-      "title": "Mitä makerit sanovat",
-      "t1_text": "\"Paras sovellus kustannusten laskemiseen. Ennen menetin rahaa isoissa kappaleissa, nyt tiedän tarkalleen, paljonko veloittaa. PDF-tarjous on todellinen game-changer asiakkailleni.\"",
-      "t1_name": "Carlos M.",
-      "t1_role": "3D-tulostusfarmi",
-      "t2_text": "\"Monivärilaskennan toiminto on uskomaton. Se erittelee jokaisen värin Bambu Lab AMS:lle täydellisesti. Pilvisynkronointi toimii loistavasti iPadin ja iPhonen välillä.\"",
-      "t2_name": "Laura G.",
-      "t2_role": "3D-suunnittelija",
-      "t3_text": "\"Yksinkertainen, suoraviivainen ja mutkaton. Siinä on kaikki tarvittava resiinin ja filamentin laskemiseen. Paljon parempi kuin aiemmin käyttämäni Excel-taulukot.\"",
-      "t3_name": "David R.",
-      "t3_role": "Harrastelijamaker"
+      "label": "— Arvostelut sovelluskaupoissa",
+      "title": "Käyttäjien keskiarvosana",
+      "t1_score": "4,9 / 5",
+      "t1_count": "31 arvostelua",
+      "t2_score": "4,8 / 5",
+      "t2_count": "40 arvostelua"
     },
     "pricing": {
       "label": "— Ei yllätyksiä",
@@ -1771,7 +1726,7 @@ window.t = {
       "googleplay": "Google Play",
       "available": "K dispozici na",
       "webapp": "Otevřít webovou kalkulačku",
-      "proof": "Už ji používá více než 3 000 makerů"
+      "proof": "4,8/5 na Google Play (40 hodnocení)"
     },
     "mockup": {
       "total": "Celkové náklady",
@@ -1784,7 +1739,7 @@ window.t = {
       "pdf": "Exportovat nabídku do PDF"
     },
     "stats": {
-      "users": "Aktivní makeři",
+      "languages": "Jazyků aplikace",
       "platforms": "iOS · Android · iPadOS · macOS",
       "platforms_label": "Platformy",
       "price": "Jednorázová platba, navždy"
@@ -1820,17 +1775,12 @@ window.t = {
       "s3_desc": "Přidejte svou ziskovou marži a exportujte nabídku do PDF."
     },
     "testimonials": {
-      "label": "— Skutečné názory",
-      "title": "Co říkají makeři",
-      "t1_text": "\"Nejlepší aplikace na výpočet nákladů. Dřív jsem na velkých dílech prodělával, teď přesně vím, kolik si účtovat. Nabídka v PDF je převratná pro mé zákazníky.\"",
-      "t1_name": "Carlos M.",
-      "t1_role": "Farma na 3D tisk",
-      "t2_text": "\"Funkce vícebarevných výpočtů je úžasná. Perfektně rozepíše každou barvu pro Bambu Lab AMS. Synchronizace v cloudu funguje skvěle mezi iPadem a iPhonem.\"",
-      "t2_name": "Laura G.",
-      "t2_role": "3D designérka",
-      "t3_text": "\"Jednoduchá, přímočará a bez komplikací. Má vše potřebné pro výpočet pryskyřice i filamentu. Mnohem lepší než excelové tabulky, které jsem používal dřív.\"",
-      "t3_name": "David R.",
-      "t3_role": "Maker hobbista"
+      "label": "— Hodnocení v obchodech",
+      "title": "Průměrné hodnocení uživatelů",
+      "t1_score": "4,9 / 5",
+      "t1_count": "31 hodnocení",
+      "t2_score": "4,8 / 5",
+      "t2_count": "40 hodnocení"
     },
     "pricing": {
       "label": "— Bez překvapení",
@@ -1965,7 +1915,7 @@ window.t = {
       "googleplay": "Google Play",
       "available": "Beschikbaar op",
       "webapp": "Open de webcalculator",
-      "proof": "Meer dan 3.000 makers gebruiken het al"
+      "proof": "4,8/5 op Google Play (40 beoordelingen)"
     },
     "mockup": {
       "total": "Totale kosten",
@@ -1978,7 +1928,7 @@ window.t = {
       "pdf": "Offerte als PDF exporteren"
     },
     "stats": {
-      "users": "Actieve makers",
+      "languages": "Talen in de app",
       "platforms": "iOS · Android · iPadOS · macOS",
       "platforms_label": "Platforms",
       "price": "Eenmalige betaling, voor altijd"
@@ -2014,17 +1964,12 @@ window.t = {
       "s3_desc": "Voeg je winstmarge toe en exporteer de PDF-offerte."
     },
     "testimonials": {
-      "label": "— Echte meningen",
-      "title": "Wat makers zeggen",
-      "t1_text": "\"De beste app om kosten te berekenen. Vroeger verloor ik geld op grote stukken, nu weet ik precies hoeveel ik moet vragen. De offerte in PDF is een game-changer voor mijn klanten.\"",
-      "t1_name": "Carlos M.",
-      "t1_role": "3D-printboerderij",
-      "t2_text": "\"De functie voor meerkleurenberekeningen is ongelooflijk. Hij splitst elke kleur voor de Bambu Lab AMS perfect uit. De cloudsynchronisatie werkt geweldig tussen iPad en iPhone.\"",
-      "t2_name": "Laura G.",
-      "t2_role": "3D-ontwerpster",
-      "t3_text": "\"Eenvoudig, direct en zonder gedoe. Het heeft alles wat je nodig hebt om hars en filament te berekenen. Veel beter dan de Excel-bladen die ik eerder gebruikte.\"",
-      "t3_name": "David R.",
-      "t3_role": "Hobby-maker"
+      "label": "— Beoordelingen in de stores",
+      "title": "Gemiddelde beoordeling van gebruikers",
+      "t1_score": "4,9 / 5",
+      "t1_count": "31 beoordelingen",
+      "t2_score": "4,8 / 5",
+      "t2_count": "40 beoordelingen"
     },
     "pricing": {
       "label": "— Geen verrassingen",
@@ -2159,7 +2104,7 @@ window.t = {
       "googleplay": "Google Play",
       "available": "Dostępne w",
       "webapp": "Otwórz kalkulator online",
-      "proof": "Ponad 3000 makerów już z niej korzysta"
+      "proof": "4,8/5 w Google Play (40 ocen)"
     },
     "mockup": {
       "total": "Koszt całkowity",
@@ -2172,7 +2117,7 @@ window.t = {
       "pdf": "Eksportuj wycenę do PDF"
     },
     "stats": {
-      "users": "Aktywni makerzy",
+      "languages": "Języków aplikacji",
       "platforms": "iOS · Android · iPadOS · macOS",
       "platforms_label": "Platformy",
       "price": "Jednorazowa płatność, na zawsze"
@@ -2208,17 +2153,12 @@ window.t = {
       "s3_desc": "Dodaj swoją marżę zysku i wyeksportuj wycenę do PDF."
     },
     "testimonials": {
-      "label": "— Prawdziwe opinie",
-      "title": "Co mówią makerzy",
-      "t1_text": "\"Najlepsza aplikacja do obliczania kosztów. Wcześniej traciłem pieniądze na dużych elementach, teraz wiem dokładnie, ile pobrać. Wycena w PDF to przełom dla moich klientów.\"",
-      "t1_name": "Carlos M.",
-      "t1_role": "Farma druku 3D",
-      "t2_text": "\"Funkcja obliczeń wielokolorowych jest niesamowita. Idealnie rozbija każdy kolor dla Bambu Lab AMS. Synchronizacja w chmurze działa świetnie między iPad a iPhone.\"",
-      "t2_name": "Laura G.",
-      "t2_role": "Projektantka 3D",
-      "t3_text": "\"Prosta, konkretna i bez komplikacji. Ma wszystko, co potrzebne do obliczeń żywicy i filamentu. Dużo lepsza niż arkusze Excela, których używałem wcześniej.\"",
-      "t3_name": "David R.",
-      "t3_role": "Maker hobbysta"
+      "label": "— Oceny w sklepach",
+      "title": "Średnia ocena użytkowników",
+      "t1_score": "4,9 / 5",
+      "t1_count": "31 ocen",
+      "t2_score": "4,8 / 5",
+      "t2_count": "40 ocen"
     },
     "pricing": {
       "label": "— Bez niespodzianek",

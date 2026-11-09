@@ -551,6 +551,13 @@ nav {
   padding: 26px;
 }
 .testimonial-stars { color: var(--accent); margin-bottom: 14px; letter-spacing: 2px; }
+.ratings-grid { grid-template-columns: repeat(2, 1fr); max-width: 640px; margin-left: auto; margin-right: auto; }
+.rating-card { display: block; text-align: center; text-decoration: none; transition: border-color 0.2s; }
+.rating-card:hover { border-color: var(--accent-border); }
+.rating-score { font-size: 40px; font-weight: 900; color: var(--text-primary); letter-spacing: -1px; line-height: 1.1; margin-bottom: 6px; }
+.rating-store { color: var(--text-primary); font-weight: 700; font-size: 15px; margin-bottom: 4px; }
+.rating-count { color: var(--text-muted); font-size: 13px; }
+.rating-note { text-align: center; color: var(--text-muted); font-size: 12px; margin-top: 18px; }
 .testimonial-text {
   color: var(--text-secondary);
   font-size: 14px;
