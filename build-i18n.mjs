@@ -103,7 +103,16 @@ for (const lang of LANGS) {
     .replace(/src="main\.js"/g, 'src="/main.js"')
     .replace(/href="(privacy|terms|support|guia-costes-impresion-3d|cuanto-cuesta-imprimir-en-3d|consumo-electrico-impresora-3d)\.html/g, 'href="/$1.html')
     .replace(/href="index\.html#/g, 'href="/#')
-    .replace(/href="index\.html"/g, 'href="/"');
+    .replace(/href="index\.html"/g, 'href="/"')
+    ;
+
+  // The Portuguese homepage links its own Portuguese guide instead of the Spanish ones.
+  if (lang === 'pt') {
+    html = html
+      .replace(/<a href="\/guia-costes-impresion-3d\.html">Guía de costes<\/a>/, '<a href="/guia-custos-impressao-3d.html">Guia de custos</a>')
+      .replace(/\s*<a href="\/cuanto-cuesta-imprimir-en-3d\.html">[^<]*<\/a>/, '')
+      .replace(/\s*<a href="\/consumo-electrico-impresora-3d\.html">[^<]*<\/a>/, '');
+  }
 
   mkdirSync(lang, { recursive: true });
   writeFileSync(lang + '/index.html', html);

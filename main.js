@@ -36,6 +36,9 @@ if (/\/index\.html$/.test(location.pathname)) {
 }
 
 function getLang() {
+  // 0) A page pinned to one language (e.g. the Portuguese guide) keeps it.
+  const pinned = document.documentElement.getAttribute('data-page-lang');
+  if (LANGUAGES.some(l => l.code === pinned)) return pinned;
   // 1) Static per-language homepage (/en/, /de/, …): the path is the source of truth.
   const seg = location.pathname.split('/')[1];
   if (LANGUAGES.some(l => l.code === seg)) return seg;

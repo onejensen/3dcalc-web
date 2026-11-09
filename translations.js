@@ -1330,7 +1330,7 @@ window.t = {
       "home": "На главную",
       "art_aria": "3D-принтер печатает спагетти из филамента"
     },
-    "meta": { "title": "Калькулятор стоимости 3D-печати | 3Dcalc+", "description": "Рассчитайте реальную стоимость 3D-печати — пластик, смола, электроэнергия и труд — и создавайте профессиональные PDF-сметы на iOS, Android, iPadOS и macOS." },
+    "meta": { "title": "Калькулятор стоимости 3D-печати | 3Dcalc+", "description": "Калькулятор 3д печати онлайн бесплатно и приложение для iOS и Android: рассчитайте стоимость печати — пластик, смола, электроэнергия и труд — и создавайте PDF-сметы." },
     "nav": {
       "features": "Возможности",
       "pricing": "Цены",
@@ -2086,7 +2086,7 @@ window.t = {
       "home": "Wróć na stronę główną",
       "art_aria": "Drukarka 3D drukująca spaghetti z filamentu"
     },
-    "meta": { "title": "Kalkulator kosztów druku 3D | 3Dcalc+", "description": "Oblicz rzeczywiste koszty druku 3D — filament, żywica, energia i robocizna — i twórz profesjonalne wyceny PDF na iOS, Android, iPadOS i macOS." },
+    "meta": { "title": "Kalkulator druku 3D: koszt wydruku | 3Dcalc+", "description": "Kalkulator druku 3D online za darmo i aplikacja na iOS i Androida: oblicz koszt wydruku — filament, żywica, prąd i robocizna — i twórz wyceny PDF dla klientów." },
     "nav": {
       "features": "Funkcje",
       "pricing": "Cennik",
