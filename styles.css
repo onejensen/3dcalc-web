@@ -1175,3 +1175,53 @@ footer {
   .nf-carriage, .nf-strand, .nf-fan-blades, .nf-spool, .nf-screen-text { animation: none; }
   .nf-nest path { animation: none; stroke-dashoffset: 0; }
 }
+
+/* ============================================
+   OFFERS (enlaces de afiliado)
+   ============================================ */
+.offers { padding: 80px 0; }
+.offers-grid {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 12px;
+}
+.offer-card {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas: "name arrow" "store arrow";
+  align-items: center;
+  column-gap: 12px;
+  height: 100%;
+  padding: 16px 18px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  text-decoration: none;
+  transition: border-color .2s, background .2s;
+}
+.offer-card:hover { border-color: var(--accent-border); background: var(--accent-glow); }
+.offer-name { grid-area: name; font-weight: 700; font-size: 15px; line-height: 1.35; }
+.offer-store {
+  grid-area: store;
+  color: var(--text-secondary);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+.offer-arrow { grid-area: arrow; width: 18px; height: 18px; color: var(--text-secondary); transition: color .2s, transform .2s; }
+.offer-card:hover .offer-arrow { color: var(--accent); transform: translate(2px, -2px); }
+.offers-disclosure {
+  color: var(--text-muted);
+  font-size: 12px;
+  line-height: 1.6;
+  text-align: center;
+  max-width: 640px;
+  margin: 28px auto 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .offer-card, .offer-arrow { transition: none; }
+  .offer-card:hover .offer-arrow { transform: none; }
+}

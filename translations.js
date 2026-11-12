@@ -1,5 +1,22 @@
 window.t = {
   "es": {
+    "offers": {
+      "label": "— Ofertas para makers",
+      "title": "El material que usamos en el taller",
+      "subtitle": "Herramientas, filamentos y accesorios que recomendamos, con enlace directo a la tienda.",
+      "hornet2": "Tilswall Hornet con 2 baterías",
+      "hornet_paint": "Tilswall Hornet pistola de pintura",
+      "nfc": "Etiquetas NFC",
+      "ams_cable": "Cable para AMS Speeder",
+      "marswork": "Filamentos Marswork",
+      "cryo": "Base fría BIQU CryoGrip",
+      "kingroon": "PETG/PLA Kingroon",
+      "jayo": "PETG/PLA Jayo",
+      "vacuum": "Bolsas al vacío para filamento v2.0",
+      "hygro": "Higrómetros",
+      "geeetech": "PLA/PETG Geeetech",
+      "disclosure": "Enlaces de afiliado: si compras a través de ellos podemos recibir una comisión, sin coste extra para ti. Como Afiliado de Amazon, obtenemos ingresos por las compras adscritas que cumplen los requisitos aplicables."
+    },
     "notfound": {
       "label": "Error 404",
       "title": "Esta página se ha hecho espaguetis",
@@ -189,6 +206,23 @@ window.t = {
     }
   },
   "en": {
+    "offers": {
+      "label": "— Deals for makers",
+      "title": "The gear we use in our workshop",
+      "subtitle": "Tools, filaments and accessories we recommend, linked straight to the store.",
+      "hornet2": "Tilswall Hornet with 2 batteries",
+      "hornet_paint": "Tilswall Hornet paint sprayer",
+      "nfc": "NFC tags",
+      "ams_cable": "Cable for AMS Speeder",
+      "marswork": "Marswork filaments",
+      "cryo": "BIQU CryoGrip cold bed plate",
+      "kingroon": "Kingroon PETG/PLA",
+      "jayo": "Jayo PETG/PLA",
+      "vacuum": "Filament vacuum bags v2.0",
+      "hygro": "Hygrometers",
+      "geeetech": "Geeetech PLA/PETG",
+      "disclosure": "Affiliate links: if you buy through them we may earn a commission at no extra cost to you. As an Amazon Associate we earn from qualifying purchases."
+    },
     "notfound": {
       "label": "Error 404",
       "title": "This page turned into spaghetti",
@@ -378,6 +412,23 @@ window.t = {
     }
   },
   "fr": {
+    "offers": {
+      "label": "— Bons plans pour makers",
+      "title": "Le matériel que nous utilisons à l’atelier",
+      "subtitle": "Outils, filaments et accessoires que nous recommandons, avec lien direct vers la boutique.",
+      "hornet2": "Tilswall Hornet avec 2 batteries",
+      "hornet_paint": "Pistolet à peinture Tilswall Hornet",
+      "nfc": "Étiquettes NFC",
+      "ams_cable": "Câble pour AMS Speeder",
+      "marswork": "Filaments Marswork",
+      "cryo": "Plateau froid BIQU CryoGrip",
+      "kingroon": "PETG/PLA Kingroon",
+      "jayo": "PETG/PLA Jayo",
+      "vacuum": "Sacs sous vide pour filament v2.0",
+      "hygro": "Hygromètres",
+      "geeetech": "PLA/PETG Geeetech",
+      "disclosure": "Liens affiliés : si vous achetez via ces liens, nous pouvons percevoir une commission, sans frais supplémentaires pour vous. En tant que Partenaire Amazon, nous réalisons un bénéfice sur les achats remplissant les conditions requises."
+    },
     "notfound": {
       "label": "Erreur 404",
       "title": "Cette page est partie en spaghettis",
@@ -567,6 +618,23 @@ window.t = {
     }
   },
   "de": {
+    "offers": {
+      "label": "— Angebote für Maker",
+      "title": "Das Material aus unserer Werkstatt",
+      "subtitle": "Werkzeuge, Filamente und Zubehör, die wir empfehlen – mit direktem Link zum Shop.",
+      "hornet2": "Tilswall Hornet mit 2 Akkus",
+      "hornet_paint": "Tilswall Hornet Farbsprühpistole",
+      "nfc": "NFC-Tags",
+      "ams_cable": "Kabel für AMS Speeder",
+      "marswork": "Marswork-Filamente",
+      "cryo": "BIQU CryoGrip Kühlplatte",
+      "kingroon": "Kingroon PETG/PLA",
+      "jayo": "Jayo PETG/PLA",
+      "vacuum": "Vakuumbeutel für Filament v2.0",
+      "hygro": "Hygrometer",
+      "geeetech": "Geeetech PLA/PETG",
+      "disclosure": "Affiliate-Links: Wenn du darüber kaufst, erhalten wir eventuell eine Provision – ohne Mehrkosten für dich. Als Amazon-Partner verdienen wir an qualifizierten Verkäufen."
+    },
     "notfound": {
       "label": "Fehler 404",
       "title": "Diese Seite ist zu Spaghetti geworden",
@@ -756,6 +824,23 @@ window.t = {
     }
   },
   "it": {
+    "offers": {
+      "label": "— Offerte per maker",
+      "title": "Il materiale che usiamo in laboratorio",
+      "subtitle": "Strumenti, filamenti e accessori che consigliamo, con link diretto al negozio.",
+      "hornet2": "Tilswall Hornet con 2 batterie",
+      "hornet_paint": "Pistola a spruzzo Tilswall Hornet",
+      "nfc": "Tag NFC",
+      "ams_cable": "Cavo per AMS Speeder",
+      "marswork": "Filamenti Marswork",
+      "cryo": "Piatto freddo BIQU CryoGrip",
+      "kingroon": "PETG/PLA Kingroon",
+      "jayo": "PETG/PLA Jayo",
+      "vacuum": "Sacchetti sottovuoto per filamento v2.0",
+      "hygro": "Igrometri",
+      "geeetech": "PLA/PETG Geeetech",
+      "disclosure": "Link di affiliazione: se acquisti tramite questi link potremmo ricevere una commissione, senza costi aggiuntivi per te. In qualità di Affiliato Amazon riceviamo un guadagno dagli acquisti idonei."
+    },
     "notfound": {
       "label": "Errore 404",
       "title": "Questa pagina è finita in spaghetti",
@@ -945,6 +1030,23 @@ window.t = {
     }
   },
   "pt": {
+    "offers": {
+      "label": "— Ofertas para makers",
+      "title": "O material que usamos na oficina",
+      "subtitle": "Ferramentas, filamentos e acessórios que recomendamos, com ligação direta para a loja.",
+      "hornet2": "Tilswall Hornet com 2 baterias",
+      "hornet_paint": "Pistola de pintura Tilswall Hornet",
+      "nfc": "Etiquetas NFC",
+      "ams_cable": "Cabo para AMS Speeder",
+      "marswork": "Filamentos Marswork",
+      "cryo": "Base fria BIQU CryoGrip",
+      "kingroon": "PETG/PLA Kingroon",
+      "jayo": "PETG/PLA Jayo",
+      "vacuum": "Sacos de vácuo para filamento v2.0",
+      "hygro": "Higrómetros",
+      "geeetech": "PLA/PETG Geeetech",
+      "disclosure": "Ligações de afiliado: se comprar através delas podemos receber uma comissão, sem custo extra para si. Enquanto Associado da Amazon, ganhamos com compras elegíveis."
+    },
     "notfound": {
       "label": "Erro 404",
       "title": "Esta página virou esparguete",
@@ -1134,6 +1236,23 @@ window.t = {
     }
   },
   "ca": {
+    "offers": {
+      "label": "— Ofertes per a makers",
+      "title": "El material que fem servir al taller",
+      "subtitle": "Eines, filaments i accessoris que recomanem, amb enllaç directe a la botiga.",
+      "hornet2": "Tilswall Hornet amb 2 bateries",
+      "hornet_paint": "Pistola de pintura Tilswall Hornet",
+      "nfc": "Etiquetes NFC",
+      "ams_cable": "Cable per a AMS Speeder",
+      "marswork": "Filaments Marswork",
+      "cryo": "Base freda BIQU CryoGrip",
+      "kingroon": "PETG/PLA Kingroon",
+      "jayo": "PETG/PLA Jayo",
+      "vacuum": "Bosses al buit per a filament v2.0",
+      "hygro": "Higròmetres",
+      "geeetech": "PLA/PETG Geeetech",
+      "disclosure": "Enllaços d’afiliat: si compres a través d’ells podem rebre una comissió, sense cap cost addicional per a tu. Com a Afiliat d’Amazon, obtenim ingressos per les compres que compleixen els requisits aplicables."
+    },
     "notfound": {
       "label": "Error 404",
       "title": "Aquesta pàgina s'ha fet espaguetis",
@@ -1323,6 +1442,23 @@ window.t = {
     }
   },
   "ru": {
+    "offers": {
+      "label": "— Предложения для мейкеров",
+      "title": "То, чем мы пользуемся в мастерской",
+      "subtitle": "Инструменты, филаменты и аксессуары, которые мы рекомендуем, — с прямой ссылкой на магазин.",
+      "hornet2": "Tilswall Hornet с 2 аккумуляторами",
+      "hornet_paint": "Краскопульт Tilswall Hornet",
+      "nfc": "NFC-метки",
+      "ams_cable": "Кабель для AMS Speeder",
+      "marswork": "Филаменты Marswork",
+      "cryo": "Холодная платформа BIQU CryoGrip",
+      "kingroon": "PETG/PLA Kingroon",
+      "jayo": "PETG/PLA Jayo",
+      "vacuum": "Вакуумные пакеты для филамента v2.0",
+      "hygro": "Гигрометры",
+      "geeetech": "PLA/PETG Geeetech",
+      "disclosure": "Партнёрские ссылки: при покупке по ним мы можем получить комиссию без дополнительных затрат для вас. Как участник партнёрской программы Amazon, мы получаем доход с соответствующих покупок."
+    },
     "notfound": {
       "label": "Ошибка 404",
       "title": "Эта страница превратилась в спагетти",
@@ -1512,6 +1648,23 @@ window.t = {
     }
   },
   "fi": {
+    "offers": {
+      "label": "— Tarjouksia makereille",
+      "title": "Varusteet, joita käytämme pajassa",
+      "subtitle": "Suosittelemiamme työkaluja, filamentteja ja tarvikkeita suoralla linkillä kauppaan.",
+      "hornet2": "Tilswall Hornet kahdella akulla",
+      "hornet_paint": "Tilswall Hornet -maaliruisku",
+      "nfc": "NFC-tunnisteet",
+      "ams_cable": "Kaapeli AMS Speederille",
+      "marswork": "Marswork-filamentit",
+      "cryo": "BIQU CryoGrip -kylmäalusta",
+      "kingroon": "Kingroon PETG/PLA",
+      "jayo": "Jayo PETG/PLA",
+      "vacuum": "Filamentin tyhjiöpussit v2.0",
+      "hygro": "Hygrometrit",
+      "geeetech": "Geeetech PLA/PETG",
+      "disclosure": "Kumppanilinkit: jos ostat niiden kautta, voimme saada palkkion ilman lisäkuluja sinulle. Amazon-kumppanina ansaitsemme tuloja ehdot täyttävistä ostoksista."
+    },
     "notfound": {
       "label": "Virhe 404",
       "title": "Tästä sivusta tuli spagettia",
@@ -1701,6 +1854,23 @@ window.t = {
     }
   },
   "cs": {
+    "offers": {
+      "label": "— Nabídky pro makery",
+      "title": "Vybavení, které používáme v dílně",
+      "subtitle": "Nástroje, filamenty a příslušenství, které doporučujeme, s přímým odkazem do obchodu.",
+      "hornet2": "Tilswall Hornet se 2 bateriemi",
+      "hornet_paint": "Stříkací pistole Tilswall Hornet",
+      "nfc": "NFC štítky",
+      "ams_cable": "Kabel pro AMS Speeder",
+      "marswork": "Filamenty Marswork",
+      "cryo": "Chladicí podložka BIQU CryoGrip",
+      "kingroon": "PETG/PLA Kingroon",
+      "jayo": "PETG/PLA Jayo",
+      "vacuum": "Vakuové sáčky na filament v2.0",
+      "hygro": "Vlhkoměry",
+      "geeetech": "PLA/PETG Geeetech",
+      "disclosure": "Affiliate odkazy: pokud přes ně nakoupíte, můžeme získat provizi bez dalších nákladů pro vás. Jako partner Amazonu získáváme příjem z kvalifikovaných nákupů."
+    },
     "notfound": {
       "label": "Chyba 404",
       "title": "Z této stránky jsou špagety",
@@ -1890,6 +2060,23 @@ window.t = {
     }
   },
   "nl": {
+    "offers": {
+      "label": "— Aanbiedingen voor makers",
+      "title": "Het materiaal dat we in de werkplaats gebruiken",
+      "subtitle": "Gereedschap, filamenten en accessoires die we aanraden, met een directe link naar de winkel.",
+      "hornet2": "Tilswall Hornet met 2 accu’s",
+      "hornet_paint": "Tilswall Hornet verfspuit",
+      "nfc": "NFC-tags",
+      "ams_cable": "Kabel voor AMS Speeder",
+      "marswork": "Marswork-filamenten",
+      "cryo": "BIQU CryoGrip koude printplaat",
+      "kingroon": "Kingroon PETG/PLA",
+      "jayo": "Jayo PETG/PLA",
+      "vacuum": "Vacuümzakken voor filament v2.0",
+      "hygro": "Hygrometers",
+      "geeetech": "Geeetech PLA/PETG",
+      "disclosure": "Affiliatelinks: als je via deze links koopt, kunnen we een commissie ontvangen, zonder extra kosten voor jou. Als Amazon-partner verdienen we aan in aanmerking komende aankopen."
+    },
     "notfound": {
       "label": "Fout 404",
       "title": "Deze pagina is spaghetti geworden",
@@ -2079,6 +2266,23 @@ window.t = {
     }
   },
   "pl": {
+    "offers": {
+      "label": "— Oferty dla makerów",
+      "title": "Sprzęt, którego używamy w warsztacie",
+      "subtitle": "Narzędzia, filamenty i akcesoria, które polecamy, z bezpośrednim linkiem do sklepu.",
+      "hornet2": "Tilswall Hornet z 2 akumulatorami",
+      "hornet_paint": "Pistolet do malowania Tilswall Hornet",
+      "nfc": "Tagi NFC",
+      "ams_cable": "Kabel do AMS Speeder",
+      "marswork": "Filamenty Marswork",
+      "cryo": "Zimna płyta BIQU CryoGrip",
+      "kingroon": "PETG/PLA Kingroon",
+      "jayo": "PETG/PLA Jayo",
+      "vacuum": "Worki próżniowe na filament v2.0",
+      "hygro": "Higrometry",
+      "geeetech": "PLA/PETG Geeetech",
+      "disclosure": "Linki partnerskie: jeśli kupisz przez nie, możemy otrzymać prowizję bez dodatkowych kosztów dla Ciebie. Jako partner Amazon zarabiamy na kwalifikujących się zakupach."
+    },
     "notfound": {
       "label": "Błąd 404",
       "title": "Ta strona zamieniła się w spaghetti",
